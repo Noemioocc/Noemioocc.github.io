@@ -3,7 +3,7 @@ title: Crear un GIF con imageio y python
 date: 2020-12-22 00:01:00 +0300
 categories: [Python, imageio ]
 tags: [gif, python, imageio ]     # TAG names should always be lowercase
-math: true
+pin: true
 ---
 
 
