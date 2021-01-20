@@ -2,7 +2,7 @@
 title: VideoWriter 
 date: 2020-12-23 00:01:00 +0300
 categories: [Python, openCV ]
-tags: [videowriter, video, openCV, python, ubuntu, fourcc, mp4v, DIVX, XVID]    
+tags: [videowriter, video, opencv, python, ubuntu, fourcc, mp4v, divx, xvid]    
 math: true
 ---
 # Objeto de tipo VideoWriter 
