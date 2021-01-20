@@ -38,4 +38,4 @@ cv2.VideoWriter_fourcc(*'XVID')
 
 
 # Ejemplos con **VideoWriter**
-1. [Creacion de video con frames](../Crear-un-video-a-partir-de-frames-python-openvc/)
+1. [Python - OpenCV creacion de video con frames](../python-opencv-crear-video-con-frames/)
