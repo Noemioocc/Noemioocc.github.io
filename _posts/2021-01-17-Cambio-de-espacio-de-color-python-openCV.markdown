@@ -18,14 +18,14 @@ En openCV hay más de 150 espacios disponibles [código de la conversión del es
 
 Fig1 muestra la imagen que va a cambiar de espacios de color, originalmente es `RGB` con  `ancho = 594, alto = 567` y `3 canales`. 
 
-![imagen-original](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,h_375,w_300/v1611196936/kipunaEC/espacios-color/ungatito1-rgb-min_ztpbjm.jpg "imagen-RGB"){:.thumbnail.bordered, width= 5 }
+![imagen-original](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,h_377,w_300/v1611287834/kipunaEC/espacios-color/ungatito1-rgb_pbqzn1.jpg "imagen-RGB"){:.thumbnail.bordered, width= 5 }
 <center>
 <p style="color: rgb(199,207,210);"> Fig 1. Imagen RGB original, un gatito</p>
 </center>
 
 ## Escala de grises - COLOR_RGB2GRAY
 
-![imagen-original](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,h_377,w_300/v1611196936/kipunaEC/espacios-color/rbg-gris-min_kytfwe.jpg "imagen-gris"){:.thumbnail.bordered, width= 5 }
+![imagen-gris](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,h_377,w_300/v1611199761/kipunaEC/espacios-color/RGB-GRIS-min_kcwamm.jpg "imagen-gris"){:.thumbnail.bordered, width= 5 }
 <center>
 <p style="color: rgb(199,207,210);"> Fig 2. un gatito GRIS (conversión RGB -> GRIS)</p>
 </center>
