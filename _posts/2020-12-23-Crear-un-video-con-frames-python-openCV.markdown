@@ -91,7 +91,7 @@ Siendo más realistas, las bases de datos contiene miles de imágenes y sería u
  * Objeto `ìmg` usa el método [**.imread**](https://docs.opencv.org/master/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56) para cargar frames
  * Método [.append](https://docs.python.org/3/tutorial/datastructures.html) agrega un elemento `ìmg` al array `ìmg_array`
 4. El video debe tener el mismo tamaño que los frames, [img.shape[:2]](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html) devuelve el tamaño de la imagen en filas `height` y columnas `width`. 
-5. El objeto `video` de tipo [VideoWriter](../VideoWriter/) contiene las características del video.
+5. El objeto `video` de tipo [VideoWriter](../VideoWriter-python-openCV/) contiene las características del video.
  * Se creará con el nombre **'db1.mp4'**, codec **cv2.VideoWriter_fourcc(*'mp4v')**, **5** frames por segundo, y con el **ancho, alto** = `(3120,4160)`
 6. Bucle [for](https://docs.python.org/3/tutorial/controlflow.html#for-statements) crea un video con el arreglo de frames
  * `len(img_array)` contiene el número de ítems del arreglo `ìmg_array`
@@ -159,7 +159,7 @@ Por lo que es útil poder leer todos los archivos directo desde la carpeta en do
  * Objeto `ìmg` usa el método [**.imread**](https://docs.opencv.org/master/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56) para cargar frames
  * Método [.append](https://docs.python.org/3/tutorial/datastructures.html) agrega un elemento `ìmg` al array `ìmg_array`
 5. El video debe tener el mismo tamaño que los frames, [img.shape[:2]](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html) devuelve el tamaño de la imagen en filas `height` y columnas `width`. 
-6. El objeto `video` de tipo [VideoWriter](../VideoWriter/) contiene las características del video.
+6. El objeto `video` de tipo [VideoWriter](../VideoWriter-python-openCV/) contiene las características del video.
  * Se creará con el nombre **'CVC-08.avi'**, codec **cv2.VideoWriter_fourcc(*'DIVX')**, **20** frames por segundo, y con el **ancho, alto** = `(960,480)`
 7. Bucle [for](https://docs.python.org/3/tutorial/controlflow.html#for-statements) crea un video con el arreglo de frames
  * `len(img_array)` contiene el número de ítems del arreglo `ìmg_array`
