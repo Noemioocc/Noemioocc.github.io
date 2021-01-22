@@ -3,7 +3,8 @@ title: Crear un video a partir de frames con python - openCV
 author: Cotes Chung
 date: 2020-12-23 14:10:00 +0800
 categories: [Python, openCV ]
-tags: [openCV, python, ubuntu, videowriter, imread, frames, video ]
+tags: [openCV, python, ubuntu, 
+ter, imread, frames, video ]
 ---
 
 ## Frames y videos
@@ -28,7 +29,7 @@ En los siguientes ítems se describe el código en python - openCV.
 2. Usar método [**.imread**](https://docs.opencv.org/master/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56) para leer frames
  * Si los frames se encuentran en la misma carpeta que `main.py` escribir el nombre `'IMG_00XX.jpg'`, y si se encuentra en otra carpeta colocar el directorio `'/home/noemi/Escritorio/Proy_Ocv/db_0/IMG_00XX.jpg'`.
 3. El video debe tener el mismo tamaño que los frames, [img6.shape[:2]](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html) devuelve el tamaño de la imagen en filas `height` y columnas `width`. 
-4. El objeto `video` de tipo [VideoWriter](../VideoWriter/) contiene las características del video.
+4. El objeto `video` de tipo [VideoWriter](../VideoWriter-python-openCV/) contiene las características del video.
  * Se creará con el nombre **'db0.wmv'**, codec **cv2.VideoWriter_fourcc(*'mp4v')**, **2** frames por segundo, y con el **ancho, alto** = `(width,height)`
 5. Usar método [.write](https://docs.opencv.org/3.1.0/dd/d9e/classcv_1_1VideoWriter.html#a3115b679d612a6a0b5864a0c88ed4b39) para poner cada frame en el video 'db0.wmv'
 6. Usar [.realese](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html#afb4ab689e553ba2c8f0fec41b9344ae6) para liberar
