@@ -1,9 +1,8 @@
 ---
-title: Crear un GIF con imageio y python
+title: Crear un GIF con python - imageio 
 date: 2020-12-22 00:01:00 +0300
 categories: [Python, imageio ]
 tags: [gif, python, imageio ]     # TAG names should always be lowercase
-pin: true
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Crear un video con frames python - opencv
+title: Crear un video a partir de frames con python - openCV
 author: Cotes Chung
-date: 2019-08-08 14:10:00 +0800
+date: 2020-12-23 14:10:00 +0800
 categories: [Python, openCV ]
-tags: [openCV, python, ubuntu]
+tags: [openCV, python, ubuntu, videowriter, imread, frames, video ]
 ---
 
 ## Frames y videos

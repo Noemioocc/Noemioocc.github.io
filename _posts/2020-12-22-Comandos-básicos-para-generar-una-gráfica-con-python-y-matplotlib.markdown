@@ -1,5 +1,5 @@
 ---
-title: Comandos básicos para generar una gráfica con python y matplotlib
+title: Comandos básicos para generar una gráfica con python - matplotlib
 date: 2021-01-17 00:01:00 +0300
 categories: [Python, Matplotlib ]
 tags: [python, numpy, arreglos, matplotlib, gráficos, legend, suptitle, tightlayout ]     

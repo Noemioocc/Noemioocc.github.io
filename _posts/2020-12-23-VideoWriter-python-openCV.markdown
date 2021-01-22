@@ -1,6 +1,6 @@
 ---
-title: VideoWriter 
-date: 2020-12-23 00:01:00 +0300
+title: VideoWriter python - openCV 
+date: 2020-12-22 00:01:00 +0300
 categories: [Python, openCV ]
 tags: [videowriter, video, openCV, python, ubuntu, fourcc, mp4v, DIVX, XVID]    
 math: true
