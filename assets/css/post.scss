@@ -265,6 +265,9 @@ $prompt-newer: "{{ site.data.label.post.button.next }}";
       &.fa-telegram {
         @include btn-sharing-color(rgb(39, 159, 217));
       }
+      &.fa-whatsapp {
+        @include btn-sharing-color(rgb(94, 235, 18));
+      }
       &.fa-weibo {
         @include btn-sharing-color(rgb(229, 20, 43));
       }
