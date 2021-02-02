@@ -4,6 +4,7 @@ date: 2021-01-21 00:01:00 +0300
 categories: [Python, openCV ]
 tags: [python, openCV, texto, imagen]   
 math: true
+image: /assets/img/pixel10.png
 ---
 
 ## Pixeles
