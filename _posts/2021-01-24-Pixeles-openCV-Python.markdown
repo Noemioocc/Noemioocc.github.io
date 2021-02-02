@@ -4,7 +4,6 @@ date: 2021-01-21 00:01:00 +0300
 categories: [Python, openCV ]
 tags: [python, openCV, texto, imagen]   
 math: true
-image: https://res.cloudinary.com/dxh1bpaim/image/upload/v1611872572/kipunaEC/pixeles/pixel10_sllyey.png
 ---
 
 ## Pixeles

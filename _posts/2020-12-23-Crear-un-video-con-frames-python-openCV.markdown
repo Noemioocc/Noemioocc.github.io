@@ -4,7 +4,6 @@ author: Cotes Chung
 date: 2020-12-23 14:10:00 +0800
 categories: [Python, openCV ]
 tags: [openCV, python, ubuntu, imread, frames, video ]
-image: https://res.cloudinary.com/dxh1bpaim/image/upload/v1609715295/kipunaEC/frames-to-video/db1_o4ufc2.jpg
 ---
 
 ## Frames y videos
