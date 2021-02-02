@@ -4,6 +4,7 @@ date: 2021-01-21 00:01:00 +0300
 categories: [Python, openCV ]
 tags: [python, openCV, texto, imagen]   
 math: true
+image: https://res.cloudinary.com/dxh1bpaim/image/upload/v1611791463/kipunaEC/pixeles/blancoRGB_pdxi0u.png
 ---
 ## Crear una imagen en openCV - python
 Escribo este post porque inicialmente quería dibujar formas y texto en openCV, una de las maneras de hacerlo es [dibujar y escribir sobre una imagen](../Añadir-texto-a-una-imagen-python-openCV/) **¡realmente fue sencillo!**, pero luego surguió la interrogante, que tal que no quiero usar una imagen como tal (es decir leerla con `imread`) y quiero generar yo misma el fondo (crear una imagen negra, blanca, gris, etc) para escribir y dibujar las formas. En esa busqueda enconté esta línea de codigo:

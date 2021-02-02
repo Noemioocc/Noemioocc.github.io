@@ -4,6 +4,7 @@ date: 2021-01-17 00:01:00 +0300
 categories: [Python, Matplotlib ]
 tags: [python, numpy, arreglos, matplotlib, gráficos, legend, suptitle, tightlayout ]     
 math: true
+image: https://res.cloudinary.com/dxh1bpaim/image/upload/v1610507518/kipunaEC/python-matplot-b%C3%A1sico/matplotlib3_ggb3dt.jpg
 ---
 ## Matplotlib 
 

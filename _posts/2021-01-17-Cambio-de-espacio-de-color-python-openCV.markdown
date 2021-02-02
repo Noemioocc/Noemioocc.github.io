@@ -3,6 +3,7 @@ title: Cambio de espacios de color python - openCV
 date: 2021-01-17 00:01:00 +0300
 categories: [Python, openCV ]
 tags: [python, openCV, cvtColor, color, rgb, gris, gray]
+image: https://res.cloudinary.com/dxh1bpaim/image/upload/v1611199763/kipunaEC/espacios-color/RGB-GBRA-min_yvhgl4.jpg
 ---
 
 ## Espacios de color

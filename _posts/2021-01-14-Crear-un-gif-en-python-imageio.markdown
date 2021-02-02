@@ -3,6 +3,7 @@ title: Crear un GIF con python - imageio
 date: 2020-12-22 00:01:00 +0300
 categories: [Python, imageio ]
 tags: [gif, python, imageio ]     # TAG names should always be lowercase
+image: https://res.cloudinary.com/dxh1bpaim/image/upload/v1610815205/kipunaEC/frames-to-gif/gato_pn82fv.gif
 ---
 
 
