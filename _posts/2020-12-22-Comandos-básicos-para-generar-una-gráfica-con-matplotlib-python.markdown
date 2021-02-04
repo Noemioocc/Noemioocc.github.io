@@ -1,16 +1,19 @@
 ---
-title: Comandos básicos para generar una gráfica con python - matplotlib
+title: Comandos básicos para generar una gráfica con matplotlib - python 
 date: 2021-01-17 00:01:00 +0300
 categories: [Python, Matplotlib ]
-tags: [python, numpy, arreglos, matplotlib, gráficos, legend, suptitle, tightlayout ]     
+tags: [python, numpy, matplotlib, gráficos, legend, suptitle, tightlayout ]     
 math: true
-image: https://res.cloudinary.com/dxh1bpaim/image/upload/v1610906649/kipunaEC/python-matplot-b%C3%A1sico/matplotlib0_ocehw0.gif
+image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_600/v1610906649/kipunaEC/python-matplot-b%C3%A1sico/matplotlib0_ocehw0.gif
 ---
+
+***
+
 ## Matplotlib 
 
 [**Matplotlib**](https://matplotlib.org/index.html) es una librería para [**python**](https://www.python.org/) que grafica datos en figuras con uno o más ejes.  
 
-![GIF-matplotlib](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,h_400,w_600/v1610906649/kipunaEC/python-matplot-b%C3%A1sico/matplotlib0_ocehw0.gif){:.thumbnail.bordered, width= 10 }
+***
 
 ## Graficar funciones en matplotlib y python **.plot**
 
@@ -39,11 +42,8 @@ $$
 
 Fig1. muestra seis funciones en un mismo gráfico con etiquetas en los ejes, títulos, rejillas, estilos y colores de línea establecidas por defecto [^por-defecto], más adelante registro como personalizar la gráfica. 
 
-![Funciones](https://res.cloudinary.com/dxh1bpaim/image/upload/v1610907914/kipunaEC/python-matplot-b%C3%A1sico/matplotlib1_skfvil.jpg){:.thumbnail.bordered, width= 10 }
-<center>
-<p style="color: rgb(69,103,112);"> <strong>Fig1.</strong> Funciones constantes, trigonométrica, polinómicas en una misma gráfica</p>
-</center>
-
+![Funciones](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_550/v1610907914/kipunaEC/python-matplot-b%C3%A1sico/matplotlib1_skfvil.jpg)
+_Fig 1. Funciones constantes, trigonométrica, polinómicas en una misma gráfica_
 
 En los siguientes ítems describo el código que generó Fig1.
 1. importar librerías/paquetes
@@ -121,11 +121,8 @@ En este ejemplo uso [marcadores y colores](https://matplotlib.org/2.1.1/api/_as_
  - Cambio el [color](https://matplotlib.org/3.1.0/gallery/color/named_colors.html) de la ecuación `y6`a magenta.
  - Uso`fontsize` para cambiar el tamaño del título y los ejes.
 
-![Markers](https://res.cloudinary.com/dxh1bpaim/image/upload/v1610505084/kipunaEC/python-matplot-b%C3%A1sico/matplotlib2_rpjdak.jpg){:.thumbnail.bordered, width= 10 }
-
-<center>
-<p style="color: rgb(69,103,112);"> Fig 2. Estilos de línea</p>
-</center>
+![Markers](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_550/v1610505084/kipunaEC/python-matplot-b%C3%A1sico/matplotlib2_rpjdak.jpg)
+_Fig 2. Gráfico con marcadores_
 
 El espaciado de los marcadores en las funciones de Fig2. se ve diferente en cada una, porque al definir los dominios con las funciones [arange](https://numpy.org/doc/stable/reference/generated/numpy.arange.html), [ones](https://numpy.org/doc/stable/reference/generated/numpy.ones.html) y [linspace](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html) las muestras en cada arreglo son distintas. El código a continuación es el que generó Fig2. 
 
@@ -172,6 +169,7 @@ plt.savefig("Funciones.jpg")
 plt.show()                       
 ```
 
+***
 
 ## Estilos de línea matplotlib
 
@@ -202,11 +200,8 @@ plt.plot(x5, y5,'--',  label = "$y_5 = x^3+150$")
 plt.plot(x6, y6, '-.', color = 'm', label = "$y_6 = x^3+x^2+200$")
 ```
 
-![Lineas](https://res.cloudinary.com/dxh1bpaim/image/upload/v1610507518/kipunaEC/python-matplot-b%C3%A1sico/matplotlib3_ggb3dt.jpg){:.thumbnail.bordered, width= 10 }
-
-<center>
-<p style="color: rgb(69,103,112);"> Fig 3. Estilos de línea</p>
-</center>
+![Lineas](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_550/v1610507518/kipunaEC/python-matplot-b%C3%A1sico/matplotlib3_ggb3dt.jpg)
+_Fig 3. Estilos de línea_
 
 El siguiente código es el que generó Fig3.
 ```python
@@ -252,13 +247,13 @@ plt.savefig("Funciones.jpg")
 plt.show()
 ```
 
+***
+
 ## Subplots matplotlib python **fig**, **ax**
 [Subplots](https://matplotlib.org/3.3.3/api/_as_gen/matplotlib.pyplot.subplots.html) crea un conjunto figuras en un mismo gráfico sin solaparse. En este ejemplo uso las funciones establecidas a inicio del post `y1, y2, y3, y4`. 
 
-![velocidad-tiempo](https://res.cloudinary.com/dxh1bpaim/image/upload/v1610852282/kipunaEC/python-matplot-b%C3%A1sico/matplotlib4_gikds4.jpg){:.thumbnail.bordered, width= 10 }
-<center>
-<p style="color: rgb(69,103,112);"> <strong>Fig4.</strong> Funciones constantes, trigonométrica, polinómicas en un misma gráfica</p>
-</center>
+![Lineas](https://res.cloudinary.com/dxh1bpaim/image/upload/v1610852282/kipunaEC/python-matplot-b%C3%A1sico/matplotlib4_gikds4.jpg)
+_Fig 4. Sub imágenes. Funciones constantes, trigonométrica, polinómicas_
 
 La función `subplots` devuelve dos argumentos [fig, ax](https://matplotlib.org/3.3.3/api/_as_gen/matplotlib.pyplot.subplots.html) 
 `fig, ax = plt.subplots(2,2)`. Establezco `subplots`como una matriz de 2x2, que representan las posiciones de las figuras en el gráfico.
@@ -341,16 +336,14 @@ fig.tight_layout()
 #Mostrar imagen
 plt.show()
 ```
+***
 
 ### Graficar tres funciones matplotlib **fig, ax = plt.subplots(3)**
 
 En este ejemplo uso las funciones `y1, y2, y3` en un gráfico de 3x1, a diferencia del ejemplo anterior, las funciones en **ax** se usa como una matriz de una dimensión `ax[0]`, `ax[1]` y `ax[2]`. 
 
-![velocidad-tiempo](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,h_600,w_1000/v1610906812/kipunaEC/python-matplot-b%C3%A1sico/matplotlib5_letxob.jpg){:.thumbnail.bordered, width= 10 }
-<center>
-<p style="color: rgb(69,103,112);"> <strong>Fig4.</strong> Funciones constantes, trigonométrica, polinómicas en un misma gráfica</p>
-</center>
-
+![Lineas](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,h_600,w_1000/v1610906812/kipunaEC/python-matplot-b%C3%A1sico/matplotlib5_letxob.jpg)
+_Fig 5. Sub imágenes con funciones_
 
 ```python
 #Importar librerías
@@ -407,8 +400,13 @@ fig.tight_layout()
 plt.show()
 ```
 
+***
 
+> Cualquier retroalimentación de forma respetuosa es bienvenida, porque el conocimiento debe ser libre  — Mimi
 
+***
+
+## Referencias
 
 [^por-defecto]: **Por defecto** opción disponible si no se especifica lo contrario 
 

@@ -1,12 +1,15 @@
 ---
-title: VideoWriter python - openCV 
+title: VideoWriter openCV python
 date: 2020-12-22 00:01:00 +0300
 categories: [Python, openCV ]
 tags: [videowriter, video, openCV, python, ubuntu, fourcc, mp4v, DIVX, XVID]    
-math: true
+image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v1612401185/kipunaEC/frames-to-video/2_pyhtp7.jpg
 ---
+
+***
+
 # Objeto de tipo VideoWriter 
-Para guardar un video con [**python**](https://www.python.org/) y [**openCV**](https://opencv.org/), es importante usar un objeto de tipo [**VideoWriter**](https://docs.opencv.org/master/dd/d43/tutorial_py_video_display.html) 
+Para guardar un video con [**python**](https://www.python.org/) y [**openCV**](https://opencv.org/), se usa un objeto de tipo [**VideoWriter**](https://docs.opencv.org/master/dd/d43/tutorial_py_video_display.html) 
 ```python
 <VideoWriter object> = cv2.VideoWriter(filename, fourcc, fps, frameSize)
 ```
@@ -14,6 +17,8 @@ Para guardar un video con [**python**](https://www.python.org/) y [**openCV**](h
 2. [**fourcc**](https://es.wikipedia.org/wiki/FourCC) es un código que utiliza 4 caracteres con que se identifica cada [**códec**]( https://www.fourcc.org/fourcc.php).
 3. [**fps**](https://es.wikipedia.org/wiki/FPS) velocidad de fotogramas de la secuencia de video.
 4. **frameSize** tamaño de los frames que componen el video
+
+***
 
 ## fourcc
 
@@ -34,4 +39,13 @@ cv2.VideoWriter_fourcc(*'DIVX')
 cv2.VideoWriter_fourcc(*'XVID')
 ```
 # Ejemplos con **VideoWriter**
-1. [Python - OpenCV creacion de video con frames](../Crear-un-video-con-frames-python-openCV/)
+
+1. [OpenCV - Python creación de video con frames](../Crear-un-video-con-frames-openCV-python/)
+
+***
+
+> Cualquier retroalimentación de forma respetuosa es bienvenida, porque el conocimiento debe ser libre  — Mimi
+
+***
+
+

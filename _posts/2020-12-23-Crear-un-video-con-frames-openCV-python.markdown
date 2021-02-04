@@ -1,14 +1,17 @@
 ---
-title: Crear un video a partir de frames con python - openCV
-author: Cotes Chung
+title: Crear un video a partir de frames con openCV python
 date: 2020-12-23 14:10:00 +0800
 categories: [Python, openCV ]
 tags: [openCV, python, ubuntu, imread, frames, video ]
+image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v1612480910/kipunaEC/frames-to-video/framesVideo_kmafwl.gif
 ---
+
+***
 
 ## Frames y videos
 Algunas veces he querido unir varios frames en un video para visualizar bases de datos de imágenes como [**Caltech**](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/), [**Daimler**](http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html) o simplemente para hacer una animación de tipo stop motion, que juntando varios frames puede aparentar un objeto en movimiento. En este post registro como crear un video a partir de [pocos frames](#pocos-frames) y como hacerlo cuando se trabaja con [mas de 50 frames](#más-de-50-frames) incluso si los nombres [no son números consecutivos](#frames-numéricamente-no-consecutivos), usando [**python**](https://www.python.org/) y [**openCV**](https://opencv.org/).
 
+***
 
 ## Frames numéricamente consecutivos
 
@@ -16,11 +19,8 @@ Algunas veces he querido unir varios frames en un video para visualizar bases de
 
 Unir los frames `IMG_0001.jpg`, `IMG_0002.jpg`, `IMG_0003.jpg`, `IMG_0004.jpg`, `IMG_0005.jpg`, `IMG_0006.jpg` para hacer un video, es una tarea sencilla ya que están ordenados y son pocos, así que se puede escribir los nombres de cada frame en el código. 
 
-![db0](https://res.cloudinary.com/dxh1bpaim/image/upload/v1609712599/kipunaEC/frames-to-video/db0_jpzzv5.jpg "image title"){:.thumbnail.bordered, width= 5 }
-<center>
-<p style="color: rgb(199,207,210);"> Fig 1. Seis frames ordenados</p>
-</center>
-
+![db0](https://res.cloudinary.com/dxh1bpaim/image/upload/v1609712599/kipunaEC/frames-to-video/db0_jpzzv5.jpg)
+_Fig 1. Seis frames ordenados_
 
 En los siguientes ítems se describe el código en python - openCV.
 
@@ -28,7 +28,7 @@ En los siguientes ítems se describe el código en python - openCV.
 2. Usar método [**.imread**](https://docs.opencv.org/master/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56) para leer frames
  * Si los frames se encuentran en la misma carpeta que `main.py` escribir el nombre `'IMG_00XX.jpg'`, y si se encuentra en otra carpeta colocar el directorio `'/home/noemi/Escritorio/Proy_Ocv/db_0/IMG_00XX.jpg'`.
 3. El video debe tener el mismo tamaño que los frames, [img6.shape[:2]](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html) devuelve el tamaño de la imagen en filas `height` y columnas `width`. 
-4. El objeto `video` de tipo [VideoWriter](../VideoWriter-python-openCV/) contiene las características del video.
+4. El objeto `video` de tipo [VideoWriter](../VideoWriter-openCV-python/) contiene las características del video.
  * Se creará con el nombre **'db0.wmv'**, codec **cv2.VideoWriter_fourcc(*'mp4v')**, **2** frames por segundo, y con el **ancho, alto** = `(width,height)`
 5. Usar método [.write](https://docs.opencv.org/3.1.0/dd/d9e/classcv_1_1VideoWriter.html#a3115b679d612a6a0b5864a0c88ed4b39) para poner cada frame en el video 'db0.wmv'
 6. Usar [.realese](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html#afb4ab689e553ba2c8f0fec41b9344ae6) para liberar
@@ -71,16 +71,13 @@ video.release()
 <center>
 <p style="color: rgb(199,207,210);"> Video 1. Seis frames ordenados en un video </p>
 </center>
-***
 
 ### Más de 50 frames
 
 Siendo más realistas, las bases de datos contiene miles de imágenes y sería una tarea tediosa escribir de uno en uno los nombres de los frames en el código. Ahora tengo una base de datos con **101** imágenes `IMG_0000.jpg ... IMG_0100.jpg`, leeré los frames y crearé el video con un bucle `for` respectivamente.
 
-![db1](https://res.cloudinary.com/dxh1bpaim/image/upload/v1609715295/kipunaEC/frames-to-video/db1_o4ufc2.jpg){:.thumbnail.bordered, width = 10}
-<center>
-<p style="color: rgb(199,207,210);"> Fig 2. Una parte de 101 imágenes </p>
-</center>
+![db1](https://res.cloudinary.com/dxh1bpaim/image/upload/v1609715295/kipunaEC/frames-to-video/db1_o4ufc2.jpg)
+_Fig 2. Una parte de 101 imágenes_
 
 1. Importar la librería [**openCV**](https://opencv.org/)  `cv2`
 2. Se crea un array vacío `img_array` para almacenar los frames 
@@ -90,7 +87,7 @@ Siendo más realistas, las bases de datos contiene miles de imágenes y sería u
  * Objeto `ìmg` usa el método [**.imread**](https://docs.opencv.org/master/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56) para cargar frames
  * Método [.append](https://docs.python.org/3/tutorial/datastructures.html) agrega un elemento `ìmg` al array `ìmg_array`
 4. El video debe tener el mismo tamaño que los frames, [img.shape[:2]](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html) devuelve el tamaño de la imagen en filas `height` y columnas `width`. 
-5. El objeto `video` de tipo [VideoWriter](../VideoWriter-python-openCV/) contiene las características del video.
+5. El objeto `video` de tipo [VideoWriter](../VideoWriter-openCV-python/) contiene las características del video.
  * Se creará con el nombre **'db1.mp4'**, codec **cv2.VideoWriter_fourcc(*'mp4v')**, **5** frames por segundo, y con el **ancho, alto** = `(3120,4160)`
 6. Bucle [for](https://docs.python.org/3/tutorial/controlflow.html#for-statements) crea un video con el arreglo de frames
  * `len(img_array)` contiene el número de ítems del arreglo `ìmg_array`
@@ -140,10 +137,8 @@ Ahora, siendo mucho más realistas algunas bases de datos de imágenes no son no
 
 Por lo que es útil poder leer todos los archivos directo desde la carpeta en donde están almacenados. Para eso debemos usar el módulo [os](https://docs.python.org/3/library/os.html) que permite gestionar los archivos del sistema operativo. 
 
-![xmas2](https://res.cloudinary.com/dxh1bpaim/image/upload/v1609711985/kipunaEC/frames-to-video/dbcvc-08_awq8fc.jpg){:.thumbnail.bordered, width= 10}
-<center>
-<p style="color: rgb(199,207,210);"> Fig 3. Una parte de CVC-08 </p>
-</center>
+![xmas2](https://res.cloudinary.com/dxh1bpaim/image/upload/v1609711985/kipunaEC/frames-to-video/dbcvc-08_awq8fc.jpg)
+_Fig 3. Una parte de CVC-08_
 
 1. Importar la librería [**openCV**](https://opencv.org/)  y [módulo  os](https://docs.python.org/3/library/os.html)
 2. Variable `path` dirección que alberga los archivos de la base de datos
@@ -158,7 +153,7 @@ Por lo que es útil poder leer todos los archivos directo desde la carpeta en do
  * Objeto `ìmg` usa el método [**.imread**](https://docs.opencv.org/master/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56) para cargar frames
  * Método [.append](https://docs.python.org/3/tutorial/datastructures.html) agrega un elemento `ìmg` al array `ìmg_array`
 5. El video debe tener el mismo tamaño que los frames, [img.shape[:2]](https://docs.opencv.org/master/d3/df2/tutorial_py_basic_ops.html) devuelve el tamaño de la imagen en filas `height` y columnas `width`. 
-6. El objeto `video` de tipo [VideoWriter](../VideoWriter-python-openCV/) contiene las características del video.
+6. El objeto `video` de tipo [VideoWriter](../VideoWriter-openCV-python/) contiene las características del video.
  * Se creará con el nombre **'CVC-08.avi'**, codec **cv2.VideoWriter_fourcc(*'DIVX')**, **20** frames por segundo, y con el **ancho, alto** = `(960,480)`
 7. Bucle [for](https://docs.python.org/3/tutorial/controlflow.html#for-statements) crea un video con el arreglo de frames
  * `len(img_array)` contiene el número de ítems del arreglo `ìmg_array`
@@ -204,11 +199,16 @@ video.release()
 <p style="color: rgb(199,207,210);"> Video 3. Frames base de datos CVC-8 en un video </p>
 </center>
 
+***
+
+> Cualquier retroalimentación de forma respetuosa es bienvenida, porque el conocimiento debe ser libre  — Mimi
+
+***
 
 ## Referencias
 
 1. Ayub Khan. (23 de mayo del 2013). [Publicación en un foro online]. *Creating a video using OpenCV 2.4.0 in python*. Mensaje publicado en [https://stackoverflow.com/questions/14440400/creating-a-video-using-opencv-2-4-0-in-python](https://stackoverflow.com/questions/14440400/creating-a-video-using-opencv-2-4-0-in-python)
 
 2. OpenCV. *Saving a Video*
-. [https://docs.opencv.org/master/dd/d43/tutorial_py_video_display.html](https://docs.opencv.org/master/dd/d43/tutorial_py_video_display.html)
+ [https://docs.opencv.org/master/dd/d43/tutorial_py_video_display.html](https://docs.opencv.org/master/dd/d43/tutorial_py_video_display.html)
 

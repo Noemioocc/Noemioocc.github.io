@@ -1,42 +1,36 @@
 ---
-title: Pixeles en openCV - python
+title: Píxeles en openCV python
 date: 2021-01-21 00:01:00 +0300
 categories: [Python, openCV ]
 tags: [python, openCV, texto, imagen]   
 math: true
-image: /assets/img/pixel10.png
+image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_600/v1612302798/kipunaEC/pixeles/portada-pixel_isrv4e.jpg
 ---
 
-## Pixeles
+***
 
-[Píxel](https://es.wikipedia.org/wiki/P%C3%ADxel) es la unidad más pequeña de una imagen digital. **En Fig1** amplío una porción de la imagen (abeja), cada cuadro respresenta un píxel y tiene un [color](https://htmlcolorcodes.com/es/) específico.
+## Píxeles
 
-![píxeles](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,h_494,w_573/v1611872572/kipunaEC/pixeles/pixel10_sllyey.png "píxeles"){:.thumbnail.bordered, width= 5 }
-<center>
-<p style="color: rgb(199,207,210);"> Fig 1. Ampliación de píxeles en una imagen</p>
-</center>
+Un [píxel](https://es.wikipedia.org/wiki/P%C3%ADxel) es la unidad más pequeña de una imagen digital. **Fig1** muestra una porción ampliada de una imagen, cada cuadro respresenta un píxel y tiene un [color](https://htmlcolorcodes.com/es/) específico.
 
-## Extraer el color de un píxel BGR openCV python
+![pixel-imagen](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,h_240,w_400/v1612304704/kipunaEC/pixeles/pixel100_zlcswt.png)
+_Fig 1. Píxeles en una imagen_
 
-**Fig2** muestra una imagen de `9x9` píxeles provenientes de **Fig1**, significa 9 píxeles de **alto (fila)** y 9 píxeles de **ancho (columnas)**, cada uno de estos espacios contiene `3`canales.
- * `B` Blue
- * `G` Green
- * `R` Red
+ ***
+
+## Acceder al valor específico de un píxel BGR openCV python
+
+Como se menciona en el post [crear una imagen BGR](../Crear-una-imagen-BGR-openCV-Python/), una computadora ve una imagen digital como un arreglo de números. **Fig2** muestra una imagen que representa 9 píxeles de **alto** (fila) y 9 píxeles de **ancho** (columnas), y cada uno de estos espacios contiene `3`valores entre `0` y `255`: 
+* `B` Blue, `G` Green, `R` Red.
 
 *Nota: En openCV por defecto, la representación  de los colores es en el orden BGR*
 
-![píxeles 9x9](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,h_181,w_185/v1611519638/kipunaEC/pixeles/pixel_l6xves.png "píxeles 9x9"){:.thumbnail.bordered, width= 5 }
-<center>
-<p style="color: rgb(199,207,210);"> Fig 2. Píxeles de una imagen 9x9</p>
-</center>
+![pixeles-representación](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_100/v1612305836/kipunaEC/pixeles/pixel2_lzyu0x.png)
+_Fig 2. Representación de 9x9 píxeles_
 
 El siguiente código permite hallar los  valores `BGR` que representan el color de la esquina superior izquierda `[0,0]` y  de la esquina inferior derecha `[8,8]`.
 
-*Nota: Anteriormente se dijo que la imagen es de 9x9 píxeles, pero la posición inicial de un arreglo en python es `0` y solo se considera hasta la posición `[8,8]`, en este ejemplo la posición `[9,9]` no existe*
-
-1. `import cv2` importo librería [**openCV**](https://opencv.org/).  
-2. [.imread](https://docs.opencv.org/master/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56) leer la imagen de `9x9`píxeles.
-3. [print()](https://docs.python.org/3/whatsnew/3.0.html) imprimo los canales `BGR` en las pociciones `img[0,0]` e `img[8,8]`.
+*Nota: Anteriormente se dijo que la imagen es de 9x9 píxeles, pero la posición inicial de un arreglo en python es `0` y se considera hasta la posición `[8,8]`, en este ejemplo la posición `[9,9]` no existe*.
 
 ```python
 #Importar librería cv2
@@ -59,23 +53,16 @@ Color posición 0,0: [  8  80 164]
 Color posición 8,8: [ 47 196 253]
 ```
 
-En la terminal aparecen los valores de **azul**, **verde** y **rojo** entre `0`y `255` de cada píxel. 
-<p style="color: rgb(164,80,8);"><strong> Posición [0,0] = BGR(8,80,164)</strong></p>
-<p style="color: rgb(253,196,47);"><strong> Posición [8,8] = BGR(47,196,253)</strong></p>
+***
 
-## Obtener el valor numérico de todos los píxeles de una imagen BGR openCV - python
+## Acceder al valor de todos los píxeles en una imagen BGR openCV python
 
-Considerando que **Fig2** tiene `81` píxeles, a continuación se obtiene los valore `BGR`de cada uno, con un bucle [for](https://docs.python.org/3/tutorial/controlflow.html#for-statements) para leer las filas y las columnas.
+**Fig 3** es una representación intuitiva de como se ubican los 3 valores `B G R` en una imagen. 
 
-![colores RGB](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,h_408,w_417/v1611548354/kipunaEC/pixeles/81pixeles_mu9l3i.png "Colores RGB"){:.thumbnail.bordered, width= 5 }
-<center>
-<p style="color: rgb(199,207,210);"> Fig 3. 81 Colores BGR, y sus representaciones numéricas</p>
-</center>
+![numerica-representación](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v1612307975/kipunaEC/pixeles/1_ujkchs.jpg)
+_Fig 3. Representación numérica intuitiva de 81 colores B G R_
 
-1. `import cv2` importo librería [**openCV**](https://opencv.org/).  
-2. [.imread](https://docs.opencv.org/master/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56) leo la imagen de `9x9`píxeles.
-3. [for](https://docs.python.org/3/tutorial/controlflow.html#for-statements) anidado. 
- * Primer **for** hace un barrido de las filas, segundo **for** barrido de las columnas.
+Considerando que **Fig2** representa `81` píxeles, a continuación se obtiene los valore `BGR`de cada uno, con un bucle [for](https://docs.python.org/3/tutorial/controlflow.html#for-statements) para leer las filas y las columnas.
 
 ```python
 #Importar librería cv2
@@ -93,7 +80,7 @@ for fila in range (9):
 {::options parse_block_html="true" /}
 
 <details>
-<summary markdown='span'> **Clic para desplegar** el resultado del código en la terminal, 81 píxeles BGR
+<summary markdown='span'> Resultado del código en la **terminal**. **Clic para desplegar** 
 </summary>
 
 ```terminal
@@ -183,14 +170,16 @@ Color fila: 8 columna 8 = [ 47 196 253]
 </details>
 {::options parse_block_html="false" /}
 
-## Obtener el valor numérico de todos los píxeles de una imagen en escala de grises openCV - python
+*** 
 
-La [escala de grises](https://es.wikipedia.org/wiki/Escala_de_grises) posee **un solo valor** (1 canal) entre **0** y **255** como se ve en **Fig 4**. A diferenia de BGR  que posee tres valores en cada píxel. 
+## Acceder al valor numérico de todos los píxeles en una imagen en escala de grises openCV python
 
-![colores GRIS](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,h_420,w_421/v1611609741/kipunaEC/pixeles/pixelesgrises_ml62wg.png "Colores GRIS"){:.thumbnail.bordered, width= 5 }
-<center>
-<p style="color: rgb(199,207,210);"> Fig 4. 81 píxeles en escala de GRISES</p>
-</center>
+La [escala de grises](https://es.wikipedia.org/wiki/Escala_de_grises) posee un solo valor (1 canal) entre `0` y `255` como se ve en **Fig 4**. A diferenia de BGR  que posee tres valores en cada píxel. 
+
+![numerica-representación-gris](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v1612307972/kipunaEC/pixeles/2_ns3zbe.jpg)
+_Fig 4. Representación numérica intuitiva de 81 píxeles en esacala de grises_
+
+El siguiente código muestra como se extrae los valores de todos los píxeles. 
 
 ```python
 #Importar librería cv2
@@ -214,7 +203,7 @@ cv2.destroyAllWindows()
 {::options parse_block_html="true" /}
 
 <details>
-<summary markdown='span'>  **Clic para desplegar** el resultado del código en la terminal
+<summary markdown='span'>  Resultado del código en la **terminal**. **Clic para desplegar**
 </summary>
 
 ```terminal
@@ -301,14 +290,20 @@ Color fila: 8 columna 7 = 163
 Color fila: 8 columna 8 = 158
 
 ``` 
-
 </details>
 {::options parse_block_html="false" /}
 
+***
+
+
+> Cualquier retroalimentación de forma respetuosa es bienvenida, porque el conocimiento debe ser libre  — Mimi
+
+***
 
 
 ## Referencias
 
-1. [https://stackoverflow.com/questions/22981845/3-dimensional-array-in-numpy](https://stackoverflow.com/questions/22981845/3-dimensional-array-in-numpy)
+1. OpenCV. *Accessing and Modifying pixel values*
+ [https://docs.opencv.org/3.4/d3/df2/tutorial_py_basic_ops.html](https://docs.opencv.org/3.4/d3/df2/tutorial_py_basic_ops.html)
 
 
