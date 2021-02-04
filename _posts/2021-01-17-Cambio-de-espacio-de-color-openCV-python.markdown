@@ -11,7 +11,7 @@ image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v16124718
 ## Espacios de color
 
 Un [espacio de color](https://es.wikipedia.org/wiki/Espacio_de_color) es una gama de colores que permite representar una imagen. 
-Este post registra los cambios de espacios partiendo desde el [modelo de color BGR](https://learnopencv.com/why-does-opencv-use-bgr-color-format/) hasta espacios de color como [gris](#escala-de-grises---color_rgb2gray), [BGRA](#color_bgr2bgra), [YCrCb ](#color_bgr2BGR2YCrCb), [XYZ](#color_bgr2xyz), [HSV](#color_bgr2hsv), [Lab](#color_bgr2lab), [Luv](#color_bgr2luv), [HLS](#color_bgr2hls), [YUV](#color_bgr2yuv)  en python y openCV usando la función `cvtColor`.
+Este post registra los cambios de espacios partiendo desde el [modelo de color BGR](https://learnopencv.com/why-does-opencv-use-bgr-color-format/) hasta espacios de color como [gris](#escala-de-grises---color_rgb2gray), [BGRA](#color_bgr2bgra), [YCrCb ](#color_bgr2ycrcb), [XYZ](#color_bgr2xyz), [HSV](#color_bgr2hsv), [Lab](#color_bgr2lab), [Luv](#color_bgr2luv), [HLS](#color_bgr2hls), [YUV](#color_bgr2yuv)  en python y openCV usando la función `cvtColor`.
 
 ***
 
