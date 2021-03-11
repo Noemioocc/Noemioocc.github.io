@@ -7,8 +7,6 @@ image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_400/v16108152
 ---
 ***
 
-<iframe width="586" height="342" src="https://www.youtube.com/embed/Div2G8Su6r4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Gif
 
 Es un formato de imagen sin sonido y de poca duración que se repite ciclicamente, es más pesado que formatos `jpg` y `png`. Para crear un gif a partir de varias imágenes en este post se usa la libería [imageio](https://pypi.org/project/imageio/).
@@ -69,6 +67,10 @@ for x in range(0, len(archivos)):
     #Guardar Gif
     imageio.mimwrite('Gato.gif', img_array, 'GIF', duration=0.5)
 ```
+
+***
+
+<iframe width="586" height="342" src="https://www.youtube.com/embed/Div2G8Su6r4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ***
 
