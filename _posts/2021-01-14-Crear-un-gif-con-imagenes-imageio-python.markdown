@@ -5,8 +5,9 @@ categories: [Python, imageio ]
 tags: [gif, python, imageio ]     
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_400/v1610815205/kipunaEC/frames-to-gif/gato_pn82fv.gif
 ---
-
 ***
+
+<iframe width="586" height="342" src="https://www.youtube.com/embed/Div2G8Su6r4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Gif
 
@@ -71,7 +72,7 @@ for x in range(0, len(archivos)):
 
 ***
 
-> Cualquier retroalimentación de forma respetuosa es bienvenida, porque el conocimiento debe ser libre  — Mimi
+> El conocimiento debe ser libre  — Mimi
 
 ***
 
