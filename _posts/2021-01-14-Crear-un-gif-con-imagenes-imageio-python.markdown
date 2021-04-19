@@ -2,7 +2,7 @@
 title: Crear un GIF con imágenes - imageio python
 date: 2020-12-22 00:01:00 +0300
 categories: [Python, imageio ]
-tags: [gif, python, imageio ]     
+tags: [gif, python, imageio ]
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_400/v1610815205/kipunaEC/frames-to-gif/gato_pn82fv.gif
 ---
 ***

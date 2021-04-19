@@ -146,10 +146,16 @@ cv2.destroyAllWindows()
 ![texto-varios-gris](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_550/v1612373070/kipunaEC/imagen-texto/Quito0_ynoutu.jpg)
 _Fig 2. Tipos de texto, color, grosor en una misma imagen_
 
+
 ***
 
+<iframe width="586" height="342" src="https://www.youtube.com/embed/vbvuESv_lMw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-> Cualquier retroalimentación de forma respetuosa es bienvenida, porque el conocimiento debe ser libe  — Mimi
+***
+
+***
+
+> El conocimiento debe ser libe  — Mimi
 
 ***
 
