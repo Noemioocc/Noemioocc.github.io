@@ -150,7 +150,7 @@ import numpy as np
 #Crear una imagen de color negro
 img1 = np.zeros((6,8,3),np.uint8)
 #Crear una imagen de color blanco
-img2 = 255*np.ones((6,88-bit unsigned,3),np.uint8)
+img2 = 255*np.ones((6,8,3),np.uint8)
 
 #Establecer 4 píxeles colores en img fondo negro
 img1[1, 1] = (50 , 50 , 50)

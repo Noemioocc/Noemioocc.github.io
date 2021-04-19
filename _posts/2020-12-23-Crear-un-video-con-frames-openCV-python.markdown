@@ -199,9 +199,15 @@ video.release()
 <p style="color: rgb(199,207,210);"> Video 3. Frames base de datos CVC-8 en un video </p>
 </center>
 
+
 ***
 
-> Cualquier retroalimentación de forma respetuosa es bienvenida, porque el conocimiento debe ser libre  — Mimi
+<iframe width="586" height="342" src="https://www.youtube.com/embed/y4v6K3-s3mE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+***
+
+> El conocimiento debe ser libre  — Mimi
 
 ***
 
