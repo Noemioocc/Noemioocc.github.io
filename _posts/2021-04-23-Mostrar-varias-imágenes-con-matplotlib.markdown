@@ -139,6 +139,10 @@ _Fig 3. Varias imagenes en la misma figura_
 
 ***
 
+<iframe width="586" height="342" src="https://www.youtube.com/embed/OUF531ctFQY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+***
+
 > El conocimiento debe ser libe  — Mimi
 
 ***
