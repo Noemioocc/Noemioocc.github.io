@@ -17,6 +17,12 @@ cv2.putText(img, texto, ubicacion, font, tamañoLetra, colorLetra, grosorLetra, 
 ```
 Antes de escribir sobre una imagen hay que considerar las dimensiones de la misma, para que la posición del texto no este fuera de los límites. A continuación se describe el código:
 
+{::options parse_block_html="true" /}
+
+<details>
+<summary markdown='span'> Explicación detallada del código a continuación **Clic para desplegar** 
+</summary>
+
 1. [cv2](https://opencv.org/) librería openCV
 2. `img` imagen donde se va a escribir el texto
 2. `texto` cadena de caracteres que aparecerá en la imagen
@@ -31,6 +37,10 @@ Antes de escribir sobre una imagen hay que considerar las dimensiones de la mism
  * `bottomLeftOrigin = False`
  * Por defecto es `False`y la posición `(0,0)` es la superior izquierda
 9. `cv2.putText` Escribe texto con todas las características en `img` 
+
+
+</details>
+{::options parse_block_html="false" /} 
 
 ```python
 #Importar librería cv2
@@ -82,6 +92,12 @@ Dibujar formas en una imagen se registra en el post [dibujar formas básicas ope
 
 El siguiente código realiza modificaciones para que se muestre en una misma imagen, varios tipos de letra, cambio de color y grosor.
 
+{::options parse_block_html="true" /}
+
+<details>
+<summary markdown='span'> Explicación detallada del código a continuación **Clic para desplegar** 
+</summary>
+
 1. [cv2](https://opencv.org/) librería openCV.
 2. `img` imagen donde se va a escribir el texto.
 3. `font` definir los tipos de letra
@@ -92,6 +108,10 @@ El siguiente código realiza modificaciones para que se muestre en una misma ima
  * `colorLetra`, color inicial `(221, 256, 10)` y en cada iteración cambio en `B` multiplos de 20, en `G` multiplos de 15 y en `R` multiplos de 50 para que se note el cambio de color.
  `grosorLetra`, cada iteración cambia por multiplos de 3
  * `cv2.putText` Escrie el texto definido con las caracteristicas especificas en `img`
+ 
+ 
+</details>
+{::options parse_block_html="false" /} 
  
 ```python
 import cv2

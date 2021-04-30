@@ -45,6 +45,12 @@ Fig1. muestra seis funciones en un mismo gráfico con etiquetas en los ejes, tí
 ![Funciones](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_550/v1610907914/kipunaEC/python-matplot-b%C3%A1sico/matplotlib1_skfvil.jpg)
 _Fig 1. Funciones constantes, trigonométrica, polinómicas en una misma gráfica_
 
+{::options parse_block_html="true" /}
+
+<details>
+<summary markdown='span'> Explicación detallada del código a continuación **Clic para desplegar** 
+</summary>
+
 En los siguientes ítems describo el código que generó Fig1.
 1. importar librerías/paquetes
  * [**Matplotlib**](https://matplotlib.org/index.html) paquete de trazado de python
@@ -56,6 +62,9 @@ En los siguientes ítems describo el código que generó Fig1.
  * `plt.plot(x, y, label = "Texto")`, el primer y segundo agumento son los valores de `x, y` respectivamente. Tercer argumento `label` etiqueta cada función con un texto.
  * Junto con `label` se usa [legend](https://matplotlib.org/3.1.1/api/legend_api.html) y `loc`, en [**Tab2.**](#tab2-parámetros-permitidos-en-loc) estan los parámetros para ubicar el texto en una posición específica.
 4. Funciones [title](https://matplotlib.org/3.3.3/api/_as_gen/matplotlib.pyplot.title.html), [xlabel](https://matplotlib.org/3.3.2/api/_as_gen/matplotlib.pyplot.xlabel.html), [ylabel](https://matplotlib.org/3.3.3/api/_as_gen/matplotlib.pyplot.ylabel.html) y [grid](https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.grid.html) se mostrarán en Fig1 con valores por defecto.
+
+</details>
+{::options parse_block_html="false" /} 
 
 ```python
 #Importar librerías
@@ -255,6 +264,13 @@ plt.show()
 ![Lineas](https://res.cloudinary.com/dxh1bpaim/image/upload/v1610852282/kipunaEC/python-matplot-b%C3%A1sico/matplotlib4_gikds4.jpg)
 _Fig 4. Sub imágenes. Funciones constantes, trigonométrica, polinómicas_
 
+{::options parse_block_html="true" /}
+
+<details>
+<summary markdown='span'> Explicación detallada del código a continuación **Clic para desplegar** 
+</summary>
+
+
 La función `subplots` devuelve dos argumentos [fig, ax](https://matplotlib.org/3.3.3/api/_as_gen/matplotlib.pyplot.subplots.html) 
 `fig, ax = plt.subplots(2,2)`. Establezco `subplots`como una matriz de 2x2, que representan las posiciones de las figuras en el gráfico.
 1. En **fig** uso funciones para dar formato a la figura (gráfica) en conjunto, como:
@@ -268,6 +284,9 @@ La función `subplots` devuelve dos argumentos [fig, ax](https://matplotlib.org/
  * [set_title](https://matplotlib.org/3.3.3/api/_as_gen/matplotlib.axes.Axes.set_title.html) escribe el título de cada sub figura.
  * [grid](https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.grid.html), dibuja la malla.
  * *Nota: En* **ax** *se debe  especificar las pociciones* así `ax[0,1]`.
+ 
+ </details>
+{::options parse_block_html="false" /} 
 
 ```python
 #Importar librerías

@@ -22,6 +22,12 @@ Unir los frames `IMG_0001.jpg`, `IMG_0002.jpg`, `IMG_0003.jpg`, `IMG_0004.jpg`, 
 ![db0](https://res.cloudinary.com/dxh1bpaim/image/upload/v1609712599/kipunaEC/frames-to-video/db0_jpzzv5.jpg)
 _Fig 1. Seis frames ordenados_
 
+{::options parse_block_html="true" /}
+
+<details>
+<summary markdown='span'> Explicación detallada del código a continuación **Clic para desplegar** 
+</summary>
+
 En los siguientes ítems se describe el código en python - openCV.
 
 1. Importar `cv2`, librería [**openCV**](https://opencv.org/)  
@@ -32,6 +38,9 @@ En los siguientes ítems se describe el código en python - openCV.
  * Se creará con el nombre **'db0.wmv'**, codec **cv2.VideoWriter_fourcc(*'mp4v')**, **2** frames por segundo, y con el **ancho, alto** = `(width,height)`
 5. Usar método [.write](https://docs.opencv.org/3.1.0/dd/d9e/classcv_1_1VideoWriter.html#a3115b679d612a6a0b5864a0c88ed4b39) para poner cada frame en el video 'db0.wmv'
 6. Usar [.realese](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html#afb4ab689e553ba2c8f0fec41b9344ae6) para liberar
+
+</details>
+{::options parse_block_html="false" /} 
 
 ```python
 #Impotar cv2
@@ -79,6 +88,11 @@ Siendo más realistas, las bases de datos contiene miles de imágenes y sería u
 ![db1](https://res.cloudinary.com/dxh1bpaim/image/upload/v1609715295/kipunaEC/frames-to-video/db1_o4ufc2.jpg)
 _Fig 2. Una parte de 101 imágenes_
 
+{::options parse_block_html="true" /}
+
+<details>
+<summary markdown='span'> Explicación detallada del código a continuación **Clic para desplegar** 
+</summary>
 1. Importar la librería [**openCV**](https://opencv.org/)  `cv2`
 2. Se crea un array vacío `img_array` para almacenar los frames 
 3. Bucle [for](https://docs.python.org/3/tutorial/controlflow.html#for-statements) para cargar frames del directorio
@@ -93,6 +107,10 @@ _Fig 2. Una parte de 101 imágenes_
  * `len(img_array)` contiene el número de ítems del arreglo `ìmg_array`
  * Método [.write](https://docs.opencv.org/3.1.0/dd/d9e/classcv_1_1VideoWriter.html#a3115b679d612a6a0b5864a0c88ed4b39) para poner cada frame en el video 'db0.wmv'
 7. Usar [.realese](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html#afb4ab689e553ba2c8f0fec41b9344ae6) para liberar
+
+</details>
+{::options parse_block_html="false" /} 
+
 
 ```python
 #Librería opencv
@@ -140,6 +158,12 @@ Por lo que es útil poder leer todos los archivos directo desde la carpeta en do
 ![xmas2](https://res.cloudinary.com/dxh1bpaim/image/upload/v1609711985/kipunaEC/frames-to-video/dbcvc-08_awq8fc.jpg)
 _Fig 3. Una parte de CVC-08_
 
+{::options parse_block_html="true" /}
+
+<details>
+<summary markdown='span'> Explicación detallada del código a continuación **Clic para desplegar** 
+</summary>
+
 1. Importar la librería [**openCV**](https://opencv.org/)  y [módulo  os](https://docs.python.org/3/library/os.html)
 2. Variable `path` dirección que alberga los archivos de la base de datos
 3. Variable `archivos`
@@ -160,6 +184,9 @@ _Fig 3. Una parte de CVC-08_
  * Método [.write](https://docs.opencv.org/3.1.0/dd/d9e/classcv_1_1VideoWriter.html#a3115b679d612a6a0b5864a0c88ed4b39) para poner cada frame en el video 'db0.wmv'
 8. Usar [.realese](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html#afb4ab689e553ba2c8f0fec41b9344ae6) para liberar
 
+
+</details>
+{::options parse_block_html="false" /} 
 
 ```python
 #Importra librerías
