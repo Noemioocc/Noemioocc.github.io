@@ -137,10 +137,20 @@ Una imagen BGR debe ser la representación numérica de una matriz, a diferencia
 _Fig 7. Representación intuitiva de una umagen BGR_
 
 El siguiente código genera una imagen `BGR`, creando el arreglo numérico de 3 dimensiones con las funciones `zeros` y `ones`.
+
+{::options parse_block_html="true" /}
+
+<details>
+<summary markdown='span'> Explicación detallada del código a continuación **Clic para desplegar** 
+</summary>
 1. Importar librerías [numpy](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html), [cv2](https://opencv.org/)
 2. Crear la matriz de `3`dimensiones
  * `np.zeros((6,8,3)` imagen `alto = 6`, `ancho = 8` y `3` canales `B G R`. Toda la matriz de `3` dimensiones esta llena de `ceros`, por lo tanto la imagen es de color negro.
  * `255*np.ones((6,8,3)` imagen `alto = 6`, `ancho = 8` y `3` canales `B G R`. Toda la matriz de `3`dimensiones esta llena de `255`, por lo tanto la imagen será de color blanco. 
+ 
+ </details>
+{::options parse_block_html="false" /} 
+ 
 
 ```python
 #Importar librería cv2 y numpy
@@ -186,6 +196,12 @@ Cuando se crea la matriz para una imagen se espcifica el tipo de dato como `uint
 
 El siguiente código muestra tres imágenes creadas con diferentes con diferentes tipos de datos.
 
+{::options parse_block_html="true" /}
+
+<details>
+<summary markdown='span'> Explicación detallada del código a continuación **Clic para desplegar** 
+</summary>
+
 1. Importar librerías [numpy](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html), [cv2](https://opencv.org/)
 2. Crear tres matrices de 3 dimensiones[^4] llenas de unos `1`
  * `uint8` tipo de dato de 8 bits (entero sin signo de 0 a 255), muestra la imagen como es realmente.
@@ -197,6 +213,10 @@ El siguiente código muestra tres imágenes creadas con diferentes con diferente
  * img[3, 5] = (255, 255, 50)
  * img[2, 3] = (150, 250 , 50) 
 4. Mostrar las 4 imágenes para comparar
+
+</details>
+{::options parse_block_html="false" /} 
+ 
 
 ```python
 #Importar librería cv2 y numpy
@@ -246,7 +266,7 @@ _Fig 10. Comparación de 3 imágenes BGR con distints tipos de dato_
 
 ### Mostrar la misma imágen con distintos tipos de dato
 
-1. `uint8` muestra la imágen sin modificacines
+1. `uint8` muestra la imágen sin modificaciones
 2. `uint16` debe ser multiplicado por `256`
 3. `float32` debe ser dividido para `256`
 
@@ -294,7 +314,11 @@ _Fig 11. Comparación de 3 imágenes BGR con diferentes tipos de datos, modifica
 
 ***
 
-> Cualquier retroalimentación de forma respetuosa es bienvenida, porque el conocimiento debe ser libe  — Mimi
+<iframe width="586" height="342" src="https://www.youtube.com/embed/-judWEWZMyY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+***
+
+> El conocimiento debe ser libe  — Mimi
 
 ***
 
