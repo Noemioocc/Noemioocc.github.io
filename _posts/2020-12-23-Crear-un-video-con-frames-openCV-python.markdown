@@ -105,7 +105,7 @@ _Fig 2. Una parte de 101 imágenes_
  * Se creará con el nombre **'db1.mp4'**, codec **cv2.VideoWriter_fourcc(*'mp4v')**, **5** frames por segundo, y con el **ancho, alto** = `(3120,4160)`
 6. Bucle [for](https://docs.python.org/3/tutorial/controlflow.html#for-statements) crea un video con el arreglo de frames
  * `len(img_array)` contiene el número de ítems del arreglo `ìmg_array`
- * Método [.write](https://docs.opencv.org/3.1.0/dd/d9e/classcv_1_1VideoWriter.html#a3115b679d612a6a0b5864a0c88ed4b39) para poner cada frame en el video 'db0.wmv'
+ * Método [.write](https://docs.opencv.org/3.1.0/dd/d9e/classcv_1_1VideoWriter.html#a3115b679d612a6a0b5864a0c88ed4b39) para poner cada frame en el video 'db1.mp4'
 7. Usar [.realese](https://docs.opencv.org/3.4/d8/dfe/classcv_1_1VideoCapture.html#afb4ab689e553ba2c8f0fec41b9344ae6) para liberar
 
 </details>
