@@ -166,6 +166,9 @@ cv2.destroyAllWindows()
 ![texto-varios-gris](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_550/v1612373070/kipunaEC/imagen-texto/Quito0_ynoutu.jpg)
 _Fig 2. Tipos de texto, color, grosor en una misma imagen_
 
+<a class="github-button" href="https://github.com/kipunaEc/python-openCV-EscribirTextoEnImagen" data-style="mega">Revisa este código en github</a>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
 
 ***
 

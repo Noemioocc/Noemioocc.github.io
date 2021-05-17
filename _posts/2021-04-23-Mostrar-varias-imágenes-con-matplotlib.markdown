@@ -137,6 +137,9 @@ plt.show()
 ![varias-imagenes](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v1619232955/kipunaEC/python-matplotlib-openCV-abrir-imagenes/variasImagenes_xpe7qu.png)
 _Fig 3. Varias imagenes en la misma figura_
 
+<a class="github-button" href="https://github.com/kipunaEc/Python-OpenCV-Mostrar-Imagenes-Matplotlib" data-style="mega">Revisa este código en github</a>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
 ***
 
 <iframe width="586" height="342" src="https://www.youtube.com/embed/OUF531ctFQY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

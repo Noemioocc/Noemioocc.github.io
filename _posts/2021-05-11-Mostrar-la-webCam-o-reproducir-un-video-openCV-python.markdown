@@ -120,7 +120,7 @@ cv2.destroyAllWindows()
 
 # Reproducir un video openCV python 
 
-El programa para reproducir un video desde un directorio es similar al anterior, varía unicamente que en lugar de colocar un valor como `0` en `VideoCapture`, se debe asignar el nombre del video `'gato.avi'` (si se encuentra en la misma carpeta que el programa) o colocar la dirección en donde este video se encuentre. 
+El programa para reproducir un video desde un directorio es similar al anterior, varía que, en lugar de colocar un valor como `0` en `VideoCapture`, se debe asignar el nombre del video `'gato.avi'` (si se encuentra en la misma carpeta que el programa) o colocar la dirección en donde este video se encuentre, y también le añado un bucle `if (ret == True)` porque en algún frame el video se terminará y sin esta condición saldra un error porque no encontrará frame que mostrar. 
 
 {::options parse_block_html="true" /}
 
