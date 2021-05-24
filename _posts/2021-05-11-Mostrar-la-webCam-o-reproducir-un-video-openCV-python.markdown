@@ -52,14 +52,8 @@ capture.release()
 cv2.destroyAllWindows()
 ```
 
-<center>
-<video src="https://res.cloudinary.com/dxh1bpaim/video/upload/c_scale,w_500/v1621182764/kipunaEC/webCam/video_vtfxj0.mp4" controls>
-  Tu navegador no implementa el elemento <code>video</code>.
-</video>
-</center>
-<center>
-<p style="color: rgb(199,207,210);"> Video 1. Mostrar la webCam </p>
-</center>
+![webCam](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_400/v1621899376/kipunaEC/webCam/miniatura00_kdoten.png)
+_Fig 1. WebCam_
 
 *Nota:* En este ejemplo uso `(cv2.waitKey(1) == ord('s'))` para salir del bucle, en la documentación oficial de openCV [^2]  usa `((cv2.waitKey(1) & 0xFF) == ord('s'))` en la siguiente sección explico el funcionamiento de esta sentencia.
 
@@ -164,6 +158,10 @@ while (capture.isOpened()):
 capture.release()
 cv2.destroyAllWindows()
 ```
+
+***
+
+<iframe width="586" height="342" src="https://www.youtube.com/embed/QCSQlCOhtFw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *** 
 

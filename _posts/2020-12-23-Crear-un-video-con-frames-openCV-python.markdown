@@ -226,6 +226,28 @@ video.release()
 <p style="color: rgb(199,207,210);"> Video 3. Frames base de datos CVC-8 en un video </p>
 </center>
 
+## Quiz
+
+<font size=3><b>¿Para qué sirve la función 'cv2.imread' de openCV?</b></font>
+<input name="b" onclick="alert('¡Nop!');b.checked;" type="radio"> Cambia el tamaño de la imagen 
+<br>
+<input name="b" onclick="alert('¡Nop, inténtalo otra vez!');b.checked;" type="radio"> Crea un video
+<br>
+<input name="b" onclick="alert('¡Correcto!');b.checked;" type="radio"> Carga un archivo de imagen
+<br>
+<font size=3><b>¿Para qué sirve el método 'append' de python?</b></font>
+<input name="b" onclick="alert('¡Esta no es la correcta!');b.checked;" type="radio"> Accede a un directorio 
+<br>
+<input name="b" onclick="alert('¡Correcto!');b.checked;" type="radio"> Agrega un elemento al final de una lista
+<br>
+<input name="b" onclick="alert('¡Nop, inténtalo otra vez!');b.checked;" type="radio"> Muestra una imagen en una ventana
+<br>
+<font size=3><b>¿Qué valores devuelve el comando 'img.shape'?</b></font>
+<input name="b" onclick="alert('¡Correcto!');b.checked;" type="radio"> Alto, ancho, canales
+<br>
+<input name="b" onclick="alert('Nop');b.checked;" type="radio"> Alto, ancho
+<br>
+<input name="b" onclick="alert('¡Nop, inténtalo otra vez!');b.checked;" type="radio"> Colores de la imagen
 
 ***
 
