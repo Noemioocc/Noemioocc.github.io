@@ -161,9 +161,6 @@ cv2.destroyAllWindows()
 
 ***
 
-<iframe width="586" height="342" src="https://www.youtube.com/embed/XxTB6-6SlyA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-*** 
 
 > El conocimiento debe ser libe  — Mimi
 
