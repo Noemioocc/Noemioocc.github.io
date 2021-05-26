@@ -161,8 +161,9 @@ cv2.destroyAllWindows()
 
 ***
 
+https://es.stackoverflow.com/questions/295916/c%C3%B3mo-guardar-correctamente-un-v%C3%ADdeo-con-opencv
 
-> El conocimiento debe ser libe  — Mimi
+> Aprendan siempre, aprendan mucho — Mimi
 
 ***
 

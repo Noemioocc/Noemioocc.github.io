@@ -74,7 +74,7 @@ for x in range(0, len(archivos)):
 
 ***
 
-> El conocimiento debe ser libre  — Mimi
+> Aprendan siempre, aprendan mucho — Mimi
 
 ***
 

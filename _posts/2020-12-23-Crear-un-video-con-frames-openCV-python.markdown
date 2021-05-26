@@ -256,7 +256,7 @@ video.release()
 
 ***
 
-> El conocimiento debe ser libre  — Mimi
+> Aprendan siempre, aprendan mucho — Mimi
 
 ***
 

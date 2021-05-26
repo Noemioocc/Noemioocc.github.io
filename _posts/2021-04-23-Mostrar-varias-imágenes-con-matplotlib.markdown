@@ -146,7 +146,7 @@ _Fig 3. Varias imagenes en la misma figura_
 
 ***
 
-> El conocimiento debe ser libe  — Mimi
+> Aprendan siempre, aprendan mucho  — Mimi
 
 ***
 

@@ -44,7 +44,7 @@ cv2.VideoWriter_fourcc(*'XVID')
 
 ***
 
-> Cualquier retroalimentación de forma respetuosa es bienvenida, porque el conocimiento debe ser libre  — Mimi
+> Aprendan siempre, aprendan mucho — Mimi
 
 ***
 

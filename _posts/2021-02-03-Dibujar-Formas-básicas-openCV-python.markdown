@@ -319,7 +319,7 @@ _Fig 5. Flechas_
 
 ***
 
-> Cualquier retroalimentación de forma respetuosa es bienvenida, porque el conocimiento debe ser libe  — Mimi
+> Aprendan siempre, aprendan mucho — Mimi
 
 ***
 

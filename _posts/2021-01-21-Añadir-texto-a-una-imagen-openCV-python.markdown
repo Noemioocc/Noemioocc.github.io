@@ -169,7 +169,6 @@ _Fig 2. Tipos de texto, color, grosor en una misma imagen_
 <a class="github-button" href="https://github.com/kipunaEc/python-openCV-EscribirTextoEnImagen" data-style="mega">Revisa este código en github</a>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-
 ***
 
 <iframe width="586" height="342" src="https://www.youtube.com/embed/vbvuESv_lMw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -178,7 +177,7 @@ _Fig 2. Tipos de texto, color, grosor en una misma imagen_
 
 ***
 
-> El conocimiento debe ser libe  — Mimi
+> Aprendan siempre, aprendan mucho — Mimi
 
 ***
 

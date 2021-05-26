@@ -87,7 +87,7 @@ Obtuve en total 184 frames, porque el video duró un poco mas de 6 segundos.
 
 *** 
 
-> El conocimiento debe ser libe  — Mimi
+> Aprendan siempre, aprendan mucho — Mimi
 
 ***
 

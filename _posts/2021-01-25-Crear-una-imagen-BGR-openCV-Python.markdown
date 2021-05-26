@@ -318,7 +318,7 @@ _Fig 11. Comparación de 3 imágenes BGR con diferentes tipos de datos, modifica
 
 ***
 
-> El conocimiento debe ser libe  — Mimi
+> Aprendan siempre, aprendan mucho — Mimi
 
 ***
 

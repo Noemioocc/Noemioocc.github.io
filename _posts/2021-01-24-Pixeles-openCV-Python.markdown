@@ -289,14 +289,14 @@ Color fila: 8 columna 6 = 165
 Color fila: 8 columna 7 = 163
 Color fila: 8 columna 8 = 158
 
-``` 
+```
 </details>
 {::options parse_block_html="false" /}
 
 ***
 
 
-> Cualquier retroalimentación de forma respetuosa es bienvenida, porque el conocimiento debe ser libre  — Mimi
+> Aprendan siempre, aprendan mucho — Mimi
 
 ***
 
