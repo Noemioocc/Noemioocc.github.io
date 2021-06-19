@@ -16,6 +16,12 @@ image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v16192354
 _Fig 1. Logo matplotlib_
 
 [Matplotlib](https://matplotlib.org/stable/index.html) puede mostrar varios tipos de gráficas como funciones aritméticas, graficos de barras, gráficas estadísticas etc. En este post registro como mostrar una imagen con matplotlib, esta imagen será previamente cargada con [imread](https://docs.opencv.org/3.4/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56) de openCV
+
+[banner]:  https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_727/v1624075827/kipunaEC/banner/bannerDataScience_vkklg7.png
+[bigData]: https://go.hotmart.com/F54793255L "Comprar curso de Python para data science y big data"
+[![logo de yanbal][banner]][bigData]
+
+
 ## Mostrar una imagen con matplotlib
 
 {::options parse_block_html="true" /}
