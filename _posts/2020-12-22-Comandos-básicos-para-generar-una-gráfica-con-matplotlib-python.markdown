@@ -15,6 +15,12 @@ image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_600/v16109066
 
 ***
 
+[banner]:  https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_728/v1624132126/kipunaEC/banner/CursoBigData_s1a7oz.gif
+[bigData]: https://go.hotmart.com/F54793255L "Comprar curso de Python para data science y big data"
+[![logo de yanbal][banner]][bigData]
+
+***
+
 ## Graficar funciones en matplotlib y python **.plot**
 
 En este post registro como graficar pares ordenados `y1` y funciones `y2, y3, y4, y5, y6`.
