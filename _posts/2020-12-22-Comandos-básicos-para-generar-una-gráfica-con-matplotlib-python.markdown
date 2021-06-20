@@ -446,7 +446,7 @@ plt.show()
 
 {::options parse_block_html="true" /}
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc5GydHtsMK9sXbXCCCEZosnS4GqBHSRJVV0ZEoCH4LxVglgw/viewform?embedded=true" width="640" height="1465" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc5GydHtsMK9sXbXCCCEZosnS4GqBHSRJVV0ZEoCH4LxVglgw/viewform?embedded=true" width="500" height="400" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
 
 {::options parse_block_html="false" /} 
 
