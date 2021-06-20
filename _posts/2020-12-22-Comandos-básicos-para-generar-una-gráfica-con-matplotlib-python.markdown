@@ -46,7 +46,7 @@ $$
 | **x** 	|	0	|	1	|	2	|	3	|	4	|	5	|	
 | **y**	|	70	|	30	|	30	|	70	|	70	|	70	|
 
-Fig1. muestra seis funciones en un mismo gráfico con etiquetas en los ejes, títulos, rejillas, estilos y colores de línea establecidas por defecto [^por-defecto], más adelante registro como personalizar la gráfica. 
+Fig1. muestra seis funciones en un mismo gráfico con etiquetas en los ejes, títulos, rejillas, estilos y colores de línea establecidas por defecto [1], más adelante registro como personalizar la gráfica. 
 
 ![Funciones](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_550/v1610907914/kipunaEC/python-matplot-b%C3%A1sico/matplotlib1_skfvil.jpg)
 _Fig 1. Funciones constantes, trigonométrica, polinómicas en una misma gráfica_
@@ -430,13 +430,23 @@ plt.show()
 > Aprendan siempre, aprendan mucho — Mimi
 
 ***
-{::options parse_block_html="true" /}
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc5GydHtsMK9sXbXCCCEZosnS4GqBHSRJVV0ZEoCH4LxVglgw/viewform?embedded=true" width="450" height="900" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
 
-{::options parse_block_html="false" /} 
+***
 
 ## Referencias
 
-[^por-defecto]: **Por defecto** opción disponible si no se especifica lo contrario 
+1. **Por defecto** opción disponible si no se especifica lo contrario 
+
+***
+
+
+## Quiz
+
+
+{::options parse_block_html="true" /}
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc5GydHtsMK9sXbXCCCEZosnS4GqBHSRJVV0ZEoCH4LxVglgw/viewform?embedded=true" width="640" height="1465" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
+{::options parse_block_html="false" /} 
 
