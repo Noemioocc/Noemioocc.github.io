@@ -251,9 +251,11 @@ video.release()
 
 ***
 
+<div class="embed-container">
+
 <iframe width="586" height="342" src="https://www.youtube.com/embed/y4v6K3-s3mE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+</div>
 ***
 
 > Aprendan siempre, aprendan mucho — Mimi
