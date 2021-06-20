@@ -179,8 +179,6 @@ _Fig 2. Tipos de texto, color, grosor en una misma imagen_
 
 ***
 
-***
-
 > Aprendan siempre, aprendan mucho — Mimi
 
 ***
