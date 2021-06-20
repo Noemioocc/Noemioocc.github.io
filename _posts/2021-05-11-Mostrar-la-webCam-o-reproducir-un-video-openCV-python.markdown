@@ -173,20 +173,6 @@ cv2.destroyAllWindows()
 
 ***
 
-[Q:Select1]() { useradd=true }
-
-What best describes your current mood?
-
-[A Mood]()
-
-* Happy
-* Sad
-* Mad
-
-[Q:String-History Reasons]() { filteranswer='Mood'}
-
-Try to identify as many possible reasons you are aware of right now that might be contributing to this mood.
-
 ## Referencias
 
 [^1]: Daniel Copley. (09 de octubre del 2016). *¿Para qué es 0xFF en cv2.waitKey (1)?*. Disponible en [https://www.it-swarm-es.com/es/python/para-que-es-0xff-en-cv2.waitkey-1/824142736/](https://www.it-swarm-es.com/es/python/para-que-es-0xff-en-cv2.waitkey-1/824142736/)
