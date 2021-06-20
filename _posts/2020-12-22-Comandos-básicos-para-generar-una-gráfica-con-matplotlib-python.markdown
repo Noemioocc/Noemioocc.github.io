@@ -446,7 +446,11 @@ plt.show()
 
 {::options parse_block_html="true" /}
 
+<div class="embed-container">
+
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc5GydHtsMK9sXbXCCCEZosnS4GqBHSRJVV0ZEoCH4LxVglgw/viewform?embedded=true" width="500" height="400" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
+</div>
 
 {::options parse_block_html="false" /} 
 
