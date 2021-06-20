@@ -261,6 +261,11 @@ plt.savefig("Funciones.jpg")
 #Mostrar imagen
 plt.show()
 ```
+***
+
+[banner]:  https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_728/v1624132126/kipunaEC/banner/CursoBigData_s1a7oz.gif
+[bigData]: https://go.hotmart.com/F54793255L "Comprar curso de Python para data science y big data"
+[![logo de yanbal][banner]][bigData]
 
 ***
 
@@ -431,15 +436,17 @@ plt.show()
 
 ***
 
-
-***
-
 ## Referencias
 
 1. **Por defecto** opción disponible si no se especifica lo contrario 
 
 ***
 
+[banner]:  https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_728/v1624132126/kipunaEC/banner/CursoBigData_s1a7oz.gif
+[bigData]: https://go.hotmart.com/F54793255L "Comprar curso de Python para data science y big data"
+[![logo de yanbal][banner]][bigData]
+
+***
 
 ## Quiz - Matplotlib básico
 
