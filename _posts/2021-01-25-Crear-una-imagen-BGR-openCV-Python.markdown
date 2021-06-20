@@ -314,7 +314,11 @@ _Fig 11. Comparación de 3 imágenes BGR con diferentes tipos de datos, modifica
 
 ***
 
+<div class="embed-container">
+
 <iframe width="586" height="342" src="https://www.youtube.com/embed/-judWEWZMyY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 ***
 

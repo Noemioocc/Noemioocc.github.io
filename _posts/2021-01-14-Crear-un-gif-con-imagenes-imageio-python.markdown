@@ -70,7 +70,11 @@ for x in range(0, len(archivos)):
 
 ***
 
+<div class="embed-container">
+
 <iframe width="586" height="342" src="https://www.youtube.com/embed/Div2G8Su6r4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 ***
 

@@ -87,8 +87,11 @@ Obtuve en total 184 frames, porque el video duró un poco mas de 6 segundos.
 <a class="github-button" href="https://github.com/kipunaEc/Python-OpenCV-extraerFrames" data-style="mega">Revisa este código en github</a>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
+<div class="embed-container">
+
 <iframe width="586" height="342" src="https://www.youtube.com/embed/1j_Zu9lmy7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+</div>
 *** 
 
 > Aprendan siempre, aprendan mucho — Mimi

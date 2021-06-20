@@ -441,7 +441,7 @@ plt.show()
 ***
 
 
-## Quiz
+## Quiz - Matplotlib básico
 
 
 {::options parse_block_html="true" /}

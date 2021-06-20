@@ -10,7 +10,11 @@ image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v16220452
 
 En este post realizaré 3 ejemplos, un script de python, un script con la librería openCV (ya instalada en Ubuntu) y un script con la librería imageio (instalaré con `pip`)
 
+<div class="embed-container">
+
 <iframe width="586" height="342" src="https://www.youtube.com/embed/6AMsTkPCQGI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 ***
 

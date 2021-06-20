@@ -171,7 +171,11 @@ _Fig 2. Tipos de texto, color, grosor en una misma imagen_
 
 ***
 
+<div class="embed-container">
+
 <iframe width="586" height="342" src="https://www.youtube.com/embed/vbvuESv_lMw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 ***
 

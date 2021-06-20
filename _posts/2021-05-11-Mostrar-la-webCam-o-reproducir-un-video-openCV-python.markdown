@@ -161,7 +161,11 @@ cv2.destroyAllWindows()
 ```
 ***
 
+<div class="embed-container">
+
 <iframe width="586" height="342" src="https://www.youtube.com/embed/oo7trH7hnYc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 ***
 

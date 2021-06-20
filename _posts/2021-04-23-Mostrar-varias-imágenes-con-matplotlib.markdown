@@ -150,8 +150,11 @@ _Fig 3. Varias imagenes en la misma figura_
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 ***
+<div class="embed-container">
 
 <iframe width="586" height="342" src="https://www.youtube.com/embed/OUF531ctFQY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 ***
 
