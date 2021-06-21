@@ -244,7 +244,7 @@ video.release()
 
 <div class="embed-container">
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKL8y14rEAfxzBipSfKnLTgqzsClaVy-6gi-2OhEFH3K99Iw/viewform?embedded=true" width="640" height="1741" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKL8y14rEAfxzBipSfKnLTgqzsClaVy-6gi-2OhEFH3K99Iw/viewform?embedded=true" width="500" height="1000" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
 
 </div>
 
