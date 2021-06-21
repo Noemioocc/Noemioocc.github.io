@@ -8,6 +8,10 @@ image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v16124809
 
 ***
 
+**Al final del blog encontrarás un Quiz relacionado con este tema**
+
+***
+
 ## Frames y videos
 Algunas veces he querido unir varios frames en un video para visualizar bases de datos de imágenes como [**Caltech**](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/), [**Daimler**](http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html) o simplemente para hacer una animación de tipo stop motion, que juntando varios frames puede aparentar un objeto en movimiento. En este post registro como crear un video a partir de [pocos frames](#pocos-frames) y como hacerlo cuando se trabaja con [mas de 50 frames](#más-de-50-frames) incluso si los nombres [no son números consecutivos](#frames-numéricamente-no-consecutivos), usando [**python**](https://www.python.org/) y [**openCV**](https://opencv.org/).
 
@@ -226,29 +230,6 @@ video.release()
 <p style="color: rgb(199,207,210);"> Video 3. Frames base de datos CVC-8 en un video </p>
 </center>
 
-## Quiz
-
-<font size=3><b>¿Para qué sirve la función 'cv2.imread' de openCV?</b></font>
-<input name="b" onclick="alert('¡Nop!');b.checked;" type="radio"> Cambia el tamaño de la imagen 
-<br>
-<input name="b" onclick="alert('¡Nop, inténtalo otra vez!');b.checked;" type="radio"> Crea un video
-<br>
-<input name="b" onclick="alert('¡Correcto!');b.checked;" type="radio"> Carga un archivo de imagen
-<br>
-<font size=3><b>¿Para qué sirve el método 'append' de python?</b></font>
-<input name="b" onclick="alert('¡Esta no es la correcta!');b.checked;" type="radio"> Accede a un directorio 
-<br>
-<input name="b" onclick="alert('¡Correcto!');b.checked;" type="radio"> Agrega un elemento al final de una lista
-<br>
-<input name="b" onclick="alert('¡Nop, inténtalo otra vez!');b.checked;" type="radio"> Muestra una imagen en una ventana
-<br>
-<font size=3><b>¿Qué valores devuelve el comando 'img.shape'?</b></font>
-<input name="b" onclick="alert('¡Correcto!');b.checked;" type="radio"> Alto, ancho, canales
-<br>
-<input name="b" onclick="alert('Nop');b.checked;" type="radio"> Alto, ancho
-<br>
-<input name="b" onclick="alert('¡Nop, inténtalo otra vez!');b.checked;" type="radio"> Colores de la imagen
-
 ***
 
 <div class="embed-container">
@@ -256,6 +237,17 @@ video.release()
 <iframe width="586" height="342" src="https://www.youtube.com/embed/y4v6K3-s3mE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
+
+***
+
+## Quiz
+
+<div class="embed-container">
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKL8y14rEAfxzBipSfKnLTgqzsClaVy-6gi-2OhEFH3K99Iw/viewform?embedded=true" width="640" height="1741" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
+</div>
+
 ***
 
 > Aprendan siempre, aprendan mucho — Mimi

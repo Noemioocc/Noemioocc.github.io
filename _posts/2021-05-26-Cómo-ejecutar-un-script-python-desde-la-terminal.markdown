@@ -24,7 +24,7 @@ En este post realizaré 3 ejemplos, un script de python, un script con la librer
 ![terminal](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_700/v1622034754/kipunaEC/ejecutarTerminal/termial_kijhwa.png)
 _Fig 1. Terminal de Ubuntu abierta_
 
-### 2. Revisar que openCV este instalado 
+### 2. Revisar que **python** este instalado 
 
 Para python2
 ```terminal
@@ -133,7 +133,7 @@ _Fig 8. Ejecutar el script y se muestra la imagen_
 ***
 
 ## Ejecutar un script python - imageio (Ejemplo 3)
-Este script crea un [gif a paritr de imágenes](../Crear-un-gif-con-imagenes-imageio-python/) y está ubicado en la dirección `/home/noemi/Escritorio/script3-python-imageio`.
+Este script crea un [gif a partir de imágenes](../Crear-un-gif-con-imagenes-imageio-python/) y está ubicado en la dirección `/home/noemi/Escritorio/script3-python-imageio`.
 En este ejemplo NO tengo instalada la librería [imageio](https://pypi.org/project/imageio/), así que si ejecuto el programa va a aparecer un error. Así que primero debo instalar `imageio`
 ### 1. Instalo **imageio** con pip
 Para instalar [imageio](https://pypi.org/project/imageio/) uso el instalador de paquetes [pip](https://pypi.org/project/pip/)
