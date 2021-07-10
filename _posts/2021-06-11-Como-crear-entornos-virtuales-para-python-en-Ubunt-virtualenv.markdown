@@ -147,7 +147,58 @@ Con el entorno activado, uso los comandos `cd` y `ls` para moverme hacia la dire
 ![matplotlib](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_1000/v1625773765/kipunaEC/entornos/script_qiwiok.png)
 _Fig 10. Ejecutar script desde el entorno virtual_
 
-## 8. Desactivar el entorno virtual
+## 8. Desintalar una librería del entorno
+
+Para desintalar una librería del entorno se debe usar la palabra `uninstall` seguido del nombre con el que se instaló la librería, como se muestra a continuación, desintalaré `opencv-python`:
+
+```terminal
+pip uninstall opencv-python
+```
+
+*Nota: Si la librería tiene una versión específica se debe añadir en el nombre, al igual que la monmento de instalar*
+
+## 9. Migrar un entorno virtual - virtualenv
+Para migrar un entorno debo crear un archivo llamado `requirements.txt` en este archivo se mostrará todas las librerías que se instalaron en un entorno determinado.
+
+Escribo en la terminal
+
+```terminal
+pip freeze > requirements.txt
+```
+![requirements](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_1000/v1625890442/kipunaEC/entornos/requirements_e9qbva.png)
+_Fig 11. Comando para crear el archivo requirements.txt_
+
+El archivo `requirements.txt` contiene la siguiente información que son las librerías instaladas en `miEntorno1` (Para este ejemplo)
+```
+certifi==2021.5.30
+cycler==0.10.0
+kiwisolver==1.3.1
+matplotlib==3.3.2
+numpy==1.21.0
+opencv-python==4.5.2.54
+Pillow==8.3.1
+pyparsing==2.4.7
+python-dateutil==2.8.1
+six==1.16.0
+```
+
+Finalmente, para migrar el entorno virtual con las mismas librerias que estan en `requirements.txt`, primero copio el archivo `requirements.txt` en el nuevo entorno virtual `miEntorno3`, como se indica en *Fig 12.*
+
+![requirementstxt](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_1000/v1625891097/kipunaEC/entornos/copiorequirremenst_xathuj.png)
+_Fig 12. Archivo requirements.txt copiado en el nuevo entorno_
+
+Con el nuevo entorno creado y el archivo `requirements.txt` en la misma carpeta, ejecuto el siguiente comando:
+
+
+```terminal
+pip install -r requirements.txt
+```
+
+![requirementstxt](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_1000/v1625891549/kipunaEC/entornos/requiremenstInstallok_dldpij.png)
+_Fig 13. Instalar librerías de requirements.txt_
+
+
+## 10. Desactivar el entorno virtual
 
 Para desacivar el entorno virtual, basta con escribir `deactivate`en la terminal.
 
@@ -158,7 +209,7 @@ deactivate
 _Fig 11. Desactivar entorno virtual_
 
 
-Se pueden craer tantos entornos virtuales como necesites, con diferentes librerías y versiones cada uno. Así como también se puede encontrar más funcionalodades a los entornos. 
+Se pueden craer tantos entornos virtuales como necesites, con diferentes librerías y versiones cada uno. Así como también se puede encontrar más aplicaciones a los entornos. 
 
 
 *** 
@@ -170,5 +221,5 @@ Se pueden craer tantos entornos virtuales como necesites, con diferentes librer�
 
 ## Referencias
 
-[^1]: OpenCV. *Creación de entornos virtuales*. disponible en: https://docs.python.org/es/3/tutorial/venv.html
+[^1]: OpenCV. *Creación de entornos virtuales*. disponible en: [https://docs.python.org/es/3/tutorial/venv.html](https://docs.python.org/es/3/tutorial/venv.html)
 
