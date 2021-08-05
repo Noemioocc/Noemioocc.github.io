@@ -18,11 +18,11 @@ _Fig 1. Izq. Imagen original. Der. Umbral o threshold con el método de Otzuu_
 # Umbralización simple
 
 La umbralización simple consiste el modificar el valor de un píxel si sobrepasa el umbral establecido. Existen varios tipos de umbralización simple establecidos en la [documentación de openCV](https://docs.opencv.org/4.5.2/d7/d4d/tutorial_py_thresholding.html) como: 
-[THRESH_BINARY](#THRESH_BINARY),
-[THRESH_BINARY_INV](#THRESH_BINARY_INV), 
-[THRESH_TRUNC](#THRESH_TRUNC), 
-[THRESH_TOZERO](#THRESH_TOZERO),
-[THRESH_TOZERO_INV](#THRESH_TOZERO_INV) 
+[THRESH_BINARY](#thresh_binary),
+[THRESH_BINARY_INV](#thresh_binary_inv), 
+[THRESH_TRUNC](#thresh_trunc), 
+[THRESH_TOZERO](#thresh_tozero),
+[THRESH_TOZERO_INV](#thresh_tozero_inv) 
 
 Para describir la umbralización simple en este ejemplo uso la imagen que se muestra en *Fig 2* que es una imagen en escala de grises que matiza desde 0 a 255. Como mostré en un post anterior [Crear una imagen BGR openCV](../Crear-una-imagen-BGR-openCV-Python/), puedo ver los valores de los píxeles haciendo zoom con openCV (Si no puedes hacer zoom el los pixeles, ejecuta tu código en un [entorno virtual conda](../Como-crear-un-entorno-virtual-con-conda-para-python-en-Windows/). 
 
