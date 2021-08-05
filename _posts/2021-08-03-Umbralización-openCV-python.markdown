@@ -24,7 +24,7 @@ La umbralización simple consiste el modificar el valor de un píxel si sobrepas
 [THRESH_TOZERO](#THRESH_TOZERO),
 [THRESH_TOZERO_INV](#THRESH_TOZERO_INV) 
 
-Para describir la umbralización simple en este ejemplo uso la imagen que se muestra en *Fig 2* que es una imagen en escala de grises que matiza desde 0 a 255. Como mostré en un post anterior [Crear una imagen BGR openCV](../posts/Crear-una-imagen-BGR-openCV-Python/), puedo ver los valores de los píxeles haciendo zoom con openCV (Si no puedes hacer zoom el los pixeles, ejecuta tu código en un [entorno virtual conda](../Como-crear-un-entorno-virtual-con-conda-para-python-en-Windows/). 
+Para describir la umbralización simple en este ejemplo uso la imagen que se muestra en *Fig 2* que es una imagen en escala de grises que matiza desde 0 a 255. Como mostré en un post anterior [Crear una imagen BGR openCV](../Crear-una-imagen-BGR-openCV-Python/), puedo ver los valores de los píxeles haciendo zoom con openCV (Si no puedes hacer zoom el los pixeles, ejecuta tu código en un [entorno virtual conda](../Como-crear-un-entorno-virtual-con-conda-para-python-en-Windows/). 
 
 ![matrizGris](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_200/v1628081877/kipunaEC/umbralizar/matizGris_slneyu.png)
 _Fig 2. Matiz de gris_
