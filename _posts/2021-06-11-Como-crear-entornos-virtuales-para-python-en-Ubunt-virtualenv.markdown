@@ -211,6 +211,11 @@ _Fig 11. Desactivar entorno virtual_
 
 Se pueden craer tantos entornos virtuales como necesites, con diferentes librerías y versiones cada uno. Así como también se puede encontrar más aplicaciones a los entornos. 
 
+<div class="embed-container">
+
+<iframe width="586" height="342" src="https://www.youtube.com/embed/1j_Zu9lmy7g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 *** 
 

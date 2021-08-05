@@ -313,6 +313,7 @@ cv2.destroyAllWindows()
 _Fig 11. Comparación de 3 imágenes BGR con diferentes tipos de datos, modificados_
 
 ***
+## Video
 
 <div class="embed-container">
 

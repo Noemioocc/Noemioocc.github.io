@@ -169,7 +169,6 @@ Cuando el script se ejecuta, con el comando `ls` puedo ver que se ha creado el s
 ![sdf](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_700/v1622047380/kipunaEC/ejecutarTerminal/3_ympnkp.png)
 _Fig 12. Ejecutar el script y se crea el archivo .gif_
 
-
 *** 
 
 > Aprendan siempre, aprendan mucho — Mimi
