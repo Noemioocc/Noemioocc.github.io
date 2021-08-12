@@ -239,6 +239,14 @@ Umbral de th2: 95.0
 Umbral de th3: 140.0
 ```
 
+## video
+
+<div class="embed-container">
+
+<iframe width="586" height="342" src="https://www.youtube.com/embed/Spe-AYoyTTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
 *** 
 
 > Aprendan siempre, aprendan mucho — Mimi
