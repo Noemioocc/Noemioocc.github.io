@@ -8,12 +8,14 @@ image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v16124809
 
 ***
 
-**Al final del blog encontrarás un Quiz relacionado con este tema**
+**Al final del blog encontrarás un QUIZ y el VIDEO relacionado con este tema**
 
 ***
 
 ## Frames y videos
 Algunas veces he querido unir varios frames en un video para visualizar bases de datos de imágenes como [**Caltech**](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/), [**Daimler**](http://www.gavrila.net/Datasets/Daimler_Pedestrian_Benchmark_D/daimler_pedestrian_benchmark_d.html) o simplemente para hacer una animación de tipo stop motion, que juntando varios frames puede aparentar un objeto en movimiento. En este post registro como crear un video a partir de [pocos frames](#pocos-frames) y como hacerlo cuando se trabaja con [mas de 50 frames](#más-de-50-frames) incluso si los nombres [no son números consecutivos](#frames-numéricamente-no-consecutivos), usando [**python**](https://www.python.org/) y [**openCV**](https://opencv.org/).
+
+*Nota: Los códigos principales se desarrollaron en **Ubuntu**, considera que para WINDOWS las direcciones que alojan las imágenes se escriben diferente. (Actualicé el blog añadiendo como se debe cambiar el path para que funcione en WINDOWS al final de la sección [Frames numéricamente no consecutivos](#frames-numéricamente-no-consecutivos))*
 
 ***
 
@@ -230,6 +232,33 @@ video.release()
 <p style="color: rgb(199,207,210);"> Video 3. Frames base de datos CVC-8 en un video </p>
 </center>
 
+*Nota:* para correr este código en WINDOWS se debe cambiar la forma como se lee la dirección que aloja las imagenes `path`, se debe usar una barra inclinada en sentido opuesto `/`, y para armar el path completo se debe añadir `"/"` en la variable `dirArchivo`. Quedará así:
+
+```python
+import os
+import cv2
+
+path = r"C:/Users/Usuario/Desktop/ej-python/FramesPos"
+archivos = sorted(os.listdir(path))
+print(archivos)
+img_array = []
+
+for x in range(0, len(archivos)):
+	nomArchivo = archivos[x]
+	dirArchivo = path + "/" + str(nomArchivo)
+	print(dirArchivo)
+	img = cv2.imread(dirArchivo)
+	img_array.append(img)
+
+height, width = img.shape[:2]
+video = cv2.VideoWriter('CVC-08.avi', cv2.VideoWriter_fourcc(*'DIVX'), 10, (width, height))
+
+for i in range(0, len(archivos)):
+	video.write(img_array[i])
+
+video.release()
+```
+
 ***
 
 <div class="embed-container">
@@ -237,6 +266,7 @@ video.release()
 <iframe width="586" height="342" src="https://www.youtube.com/embed/y4v6K3-s3mE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
+
 
 ***
 
