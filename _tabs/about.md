@@ -1,5 +1,5 @@
 ---
-title: About
+title: ¡Conoce a kipuna!
 icon: fas fa-info
 order: 4
 
@@ -10,9 +10,8 @@ order: 4
 # MIT License
 ---
 
-Blog dedicado a electrónica, matemáticas progración en C++, python, openCV, matplotlib, ccs c compiler y ejemplos. El nombre proviene del [kichwa ecuatoriano](https://educacion.gob.ec/wp-content/uploads/downloads/2013/03/RK_diccionario_kichwa_castellano.pdf), **kipuna** es escribir en nudos (kipu), que es un sistema de registro que usaban los Incas para contar o escribir.
+Kipuna nace con este blog, el nombre proviene del [kichwa ecuatoriano](https://educacion.gob.ec/wp-content/uploads/downloads/2013/03/RK_diccionario_kichwa_castellano.pdf), significa escribir en nudos (kipu), que es un sistema de registro que usaban los Incas para contar o escribir. 
 
-A continuación mi intento de un kipu (ok, originalmete no eran así):  
+Quiero que kipuna crezca en áreas como matemáticas, programación, electrónica. Y tener una comunidad que desde Latinoamérica aprende y crea.
  
-![kipu]( https://res.cloudinary.com/dxh1bpaim/image/upload/v1609968085/kipunaEC/frames-to-video/kipu_doxn5l.jpg "kipu - Hola mundo"){:.thumbnail.bordered,  width="300" height="200" }
 

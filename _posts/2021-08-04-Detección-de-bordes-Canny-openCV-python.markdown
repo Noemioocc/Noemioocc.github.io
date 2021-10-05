@@ -107,7 +107,6 @@ En el siguiente código añado un [filtro blur](https://docs.opencv.org/4.5.2/d4
 ![canny22](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_1000/v1628205958/kipunaEC/canny/cannyBlur_cz6xqm.gif)
 _Gif 2. Izq. Cámara. Der. Blur + Canny_
 
-
 ```python
 import cv2
 
@@ -135,8 +134,14 @@ while (capture.isOpened()):
 capture.release()
 cv2.destroyAllWindows()
 ```
+***
+## video
 
+<div class="embed-container">
 
+<iframe width="586" height="342" src="https://www.youtube.com/embed/950oG9d0C44" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 *** 
 
