@@ -32,9 +32,9 @@ Aquellos que se encuentran entre estos dos umbrales se clasifican como bordes o 
 
 ***
 
-[logoface]: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_728/v1633438496/kipunaEC/gifs/patricio3_xu0gks.gif
-[face]: https://www.youtube.com/channel/UCLHyReaGzfUcaiGoEN5jXEA "clic para abrir ir a facebook"
-[![logo de yanbal][logoface]][face]
+[Gif]: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_728/v1633444807/kipunaEC/gifs/patricio5_h2janv.gif
+[suscribirse]: https://www.youtube.com/channel/UCLHyReaGzfUcaiGoEN5jXEA "Clic para suscribirse en youtube"
+[![Suscribirse][Gif]][suscribirse]
 
 ***
 

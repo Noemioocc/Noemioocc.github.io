@@ -19,6 +19,12 @@ Algunas veces he querido unir varios frames en un video para visualizar bases de
 
 ***
 
+[Gif]: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_728/v1633444807/kipunaEC/gifs/patricio5_h2janv.gif
+[suscribirse]: https://www.youtube.com/channel/UCLHyReaGzfUcaiGoEN5jXEA "Clic para suscribirse en youtube"
+[![Suscribirse][Gif]][suscribirse]
+
+***
+
 ## Frames numéricamente consecutivos
 
 ### Pocos frames

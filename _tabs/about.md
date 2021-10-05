@@ -19,6 +19,6 @@ _Ayuda a kipuna_
 
 ¡Suscríbete! Quiero mudarme un dominio `.com`  
 
-![Suscribe](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_300/v1633435300/kipunaEC/gifs/ordeno_syb6hs.gif)
-_¡Suscríbete!_
-
+[Gif]: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_728/v1633444807/kipunaEC/gifs/patricio5_h2janv.gif
+[suscribirse]: https://www.youtube.com/channel/UCLHyReaGzfUcaiGoEN5jXEA "Clic para suscribirse en youtube"
+[![Suscribirse][Gif]][suscribirse]

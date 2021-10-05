@@ -88,6 +88,13 @@ Dibujar formas en una imagen se registra en el post [dibujar formas básicas ope
 
 ***
 
+[Gif]: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_728/v1633444807/kipunaEC/gifs/patricio5_h2janv.gif
+[suscribirse]: https://www.youtube.com/channel/UCLHyReaGzfUcaiGoEN5jXEA "Clic para suscribirse en youtube"
+[![Suscribirse][Gif]][suscribirse]
+
+***
+
+
 ## Tipos de letra en una misma imagen
 
 El siguiente código realiza modificaciones para que se muestre en una misma imagen, varios tipos de letra, cambio de color y grosor.

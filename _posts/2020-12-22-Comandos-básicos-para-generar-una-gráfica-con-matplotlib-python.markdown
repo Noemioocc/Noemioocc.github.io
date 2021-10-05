@@ -129,6 +129,13 @@ plt.show()
 | loc =`'center '`  	| loc = 10 		|
 
 ***
+
+[Gif]: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_728/v1633444807/kipunaEC/gifs/patricio5_h2janv.gif
+[suscribirse]: https://www.youtube.com/channel/UCLHyReaGzfUcaiGoEN5jXEA "Clic para suscribirse en youtube"
+[![Suscribirse][Gif]][suscribirse]
+
+***
+
 ## Markers, colores y fontsize en matplotlib **label**, **legend**, **fontsize** 
 
 En este ejemplo uso [marcadores y colores](https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.plot.html) para graficar, Fig2 tiene las mismas funciones `y1, y2, y3, y4, y5, y6` que Fig1 pero con las siguientes características adicionales

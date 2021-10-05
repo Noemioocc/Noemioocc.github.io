@@ -19,6 +19,12 @@ Es un formato de imagen sin sonido y de poca duración que se repite ciclicament
 
 ***
 
+[Gif]: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_728/v1633444807/kipunaEC/gifs/patricio5_h2janv.gif
+[suscribirse]: https://www.youtube.com/channel/UCLHyReaGzfUcaiGoEN5jXEA "Clic para suscribirse en youtube"
+[![Suscribirse][Gif]][suscribirse]
+
+***
+
 ## Crear Gifs con varias imágenes
 
 ![pixel-imagen](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v1612390887/kipunaEC/frames-to-gif/imggif_drzeo7.jpg)
