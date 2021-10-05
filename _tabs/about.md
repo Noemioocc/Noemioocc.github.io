@@ -10,8 +10,15 @@ order: 4
 # MIT License
 ---
 
-Kipuna nace con este blog, el nombre proviene del [kichwa ecuatoriano](https://educacion.gob.ec/wp-content/uploads/downloads/2013/03/RK_diccionario_kichwa_castellano.pdf), significa escribir en nudos (kipu), que es un sistema de registro que usaban los Incas para contar o escribir. 
+Kipuna nace con este blog, el nombre proviene del [kichwa ecuatoriano](https://educacion.gob.ec/wp-content/uploads/downloads/2013/03/RK_diccionario_kichwa_castellano.pdf), significa escribir en nudos, que es un sistema de registro que usaban los Incas para contar o escribir. 
 
-Quiero que kipuna crezca en áreas como matemáticas, programación, electrónica. Y tener una comunidad que desde Latinoamérica aprende y crea.
- 
+Quiero que kipuna crezca en áreas como matemáticas, programación, electrónica. Y tener una comunidad que desde **Latinoamérica** aprende y crea.
+
+![Ayuda](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_1366/v1633435688/kipunaEC/gifs/ayuda_wzmpvo.gif)
+_Ayuda a kipuna_
+
+¡Suscríbete! Quiero mudarme un dominio `.com`  
+
+![Suscribe](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_300/v1633435300/kipunaEC/gifs/ordeno_syb6hs.gif)
+_¡Suscríbete!_
 

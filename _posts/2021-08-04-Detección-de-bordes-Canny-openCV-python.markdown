@@ -30,6 +30,14 @@ _Fig 2. Límites Max y Min para determinar un borde_
 Revisando *Fig 2*, los bordes con un gradiente de intensidad superior a `maxVal` seguramente serán bordes y aquellos por debajo de `minVal` seguramente no serán bordes, por lo que se descartan. 
 Aquellos que se encuentran entre estos dos umbrales se clasifican como bordes o no bordes en función de su conectividad. Si están conectados a píxeles de "borde seguro", se consideran parte de los bordes. De lo contrario, también se descartan.
 
+***
+
+[logoface]: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_728/v1633438496/kipunaEC/gifs/patricio3_xu0gks.gif
+[face]: https://www.youtube.com/channel/UCLHyReaGzfUcaiGoEN5jXEA "clic para abrir ir a facebook"
+[![logo de yanbal][logoface]][face]
+
+***
+
 # Canny (cv2.Canny) en una imagen - openCv python 
 
 ```python
