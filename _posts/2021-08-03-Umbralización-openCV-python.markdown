@@ -34,6 +34,14 @@ Los píxeles de tonalidad más oscura estarán cerca de `0` y los más claros ce
 ![cercanos](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_550/v1628085656/kipunaEC/umbralizar/cercanos0255_rco5sb.png)
 _Fig 3. Píxeles cercanos a 0 son más oscuros, píxeles cercanos a 255 son más claros_
 
+***
+
+[Gif]: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_728/v1633444807/kipunaEC/gifs/patricio5_h2janv.gif
+[suscribirse]: https://www.youtube.com/channel/UCLHyReaGzfUcaiGoEN5jXEA "Clic para suscribirse en youtube"
+[![Suscribirse][Gif]][suscribirse]
+
+***
+
 ## Función cv2.threshold 
 
 Para aplicar la umbralización simple se usa el siguiente comando en python:
