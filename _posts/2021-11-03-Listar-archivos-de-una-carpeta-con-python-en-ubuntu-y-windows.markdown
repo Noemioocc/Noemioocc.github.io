@@ -48,7 +48,7 @@ Y de acuerdo a **Gif 2** para **windows**, el path aparece asi: `C:\Users\kipuna
 ```python
 import os
 
-archivos = os.listdir('C:\Users\Desktop\carpeta01')
+archivos = os.listdir('C:Users/Desktop/carpeta01')
 print(archivos)
 ```
 
