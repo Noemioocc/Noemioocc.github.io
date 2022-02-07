@@ -12,6 +12,12 @@ image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v16211811
 
 El siguiente programa describe como mostrar el contenido de la webCam, también aplica para cámaras externas, pero se debe modificar el valor en `cv2.VideoCapture()` de acuerdo al puerto donde se conecte la cámara. En **Video 1** se muestra el resultado del código.
 
+<div class="embed-container">
+
+<iframe width="586" height="342" src="https://www.youtube.com/embed/oo7trH7hnYc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
 {::options parse_block_html="true" /}
 
 <details>
@@ -159,13 +165,6 @@ while (capture.isOpened()):
 capture.release()
 cv2.destroyAllWindows()
 ```
-***
-
-<div class="embed-container">
-
-<iframe width="586" height="342" src="https://www.youtube.com/embed/oo7trH7hnYc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</div>
 
 ***
 

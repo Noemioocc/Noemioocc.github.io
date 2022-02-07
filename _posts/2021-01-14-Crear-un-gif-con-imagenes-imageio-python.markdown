@@ -19,9 +19,11 @@ Es un formato de imagen sin sonido y de poca duración que se repite ciclicament
 
 ***
 
-[Gif]: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_728/v1633444807/kipunaEC/gifs/patricio5_h2janv.gif
-[suscribirse]: https://www.youtube.com/channel/UCLHyReaGzfUcaiGoEN5jXEA "Clic para suscribirse en youtube"
-[![Suscribirse][Gif]][suscribirse]
+<div class="embed-container">
+
+<iframe width="586" height="342" src="https://www.youtube.com/embed/Div2G8Su6r4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 ***
 
@@ -70,19 +72,12 @@ for x in range(0, len(archivos)):
     # añadir imágenes al arreglo img_array
     img_array.append(leer_imagen)
     
-    #Guardar Gif
-    imageio.mimwrite('Gato.gif', img_array, 'GIF', duration=0.5)
+#Guardar Gif
+imageio.mimwrite('Gato.gif', img_array, 'GIF', duration=0.5)
 ```
 
 ***
 
-<div class="embed-container">
-
-<iframe width="586" height="342" src="https://www.youtube.com/embed/Div2G8Su6r4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</div>
-
-***
 
 > Aprendan siempre, aprendan mucho — Mimi
 

@@ -15,6 +15,14 @@ En este post detallo cómo ejecutar un script python con argumentos desde el cmd
 ![parser](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_700/v1639494131/kipunaEC/argparse/parser_vzfih7.gif)
 _Gif 1. Documentación oficial python - PARSER_
 
+<div class="embed-container">
+
+<iframe width="586" height="342" src="https://www.youtube.com/embed/4ZcX5Prfix0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
+</div>
+
+
 # Argparse - python
 Consideremos 4 puntos importantes para empezar a usar `argparse`
 1. [Importar biblioteca](https://docs.python.org/es/dev/library/argparse.html#module-argparse): `import argparse`
@@ -263,7 +271,7 @@ _Fig 12. Ejecutar script con el argumento posicional y el opcional_
 ***
 
 ## Ejemplo6 - argparse
-En este ejemplo describo como funciona el parámetro [action](https://docs.python.org/es/dev/library/argparse.html#action) de `add_argument()`. Algunas acciones de `action` son: `'store'`, `'store_const'`, `'store_true'`, `'store_false'`, `'append'`, `'append_const'`, `'count'`
+En este ejemplo describo como funciona el parámetro [action](https://docs.python.org/es/dev/library/argparse.html#action) de `add_argument()`. Algunas acciones de `action` son: `'store'`, `'store_const'`, `'store_true'`, `'store_false'`, `'append'`, `'append_const'`, `'extend'`
 
 ### `action='store'`
 Es la opción por defecto y almacena el valor del argumento, por ejemplo:
@@ -370,7 +378,7 @@ El siguiente script almacena los valores de la densidad de varios líquidos, y d
 import argparse
 import numpy as np
 
-#Densidad [kg/m3] de algunos liquidos en una lista
+#Densidad [g/cm3] de algunos liquidos en una lista
 parser = argparse.ArgumentParser()
 parser.add_argument('--agua', dest='densidades', action='append_const', const= 1)
 parser.add_argument('--aceite', dest='densidades', action='append_const', const=0.9)
@@ -404,7 +412,6 @@ Extiende cada valor del argumento a una lista.
 import argparse
 import numpy as np
 
-#Densidad [kg/m3] de algunos liquidos en una lista
 parser = argparse.ArgumentParser()
 parser.add_argument("--foo", action="extend", nargs="+", type=int)
 
@@ -477,18 +484,6 @@ _Fig 23. Con --sum el ejemplo7 suma los enteros ingresados_
 [![Suscribirse][Gif]][suscribirse]
 
 ***
-***
-[comment]: ## video
-
-[comment]: <div class="embed-container">
-
-[comment]: <iframe width="586" height="342" src="https://www.youtube.com/embed/fiilnEu1_vM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-[comment]: </iframe>
-
-[comment]: </div>
-[comment]: </div>
-
-[comment]:  *** 
 
 > Aprendan siempre, aprendan mucho — Mimi
 
