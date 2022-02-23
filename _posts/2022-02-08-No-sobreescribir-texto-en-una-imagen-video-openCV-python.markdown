@@ -63,7 +63,6 @@ En el siguiente código pongo números aleatorios y muestro varios decimales, al
 ![numerosaleatorios](https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_420/v1644365191/kipunaEC/noSobreescribirText/nosobreescribir2_yhdnkv.gif)
 _Resultado del código - números aleatorios en una imagen_
 
-
 ```python
 #Importar biblioteca openCV
 import cv2
@@ -84,7 +83,7 @@ for i in range(25):
     #Copiar imagen
     img2 = img.copy()
     #Escribir Texto
-    cv2.putText(img2, str(texto), ubicacion, font, tamañoLetra, colorLetra, grosorLetra)
+    cv2.putText(img2, str(texto), ubicacion, tipoLetra, tamañoLetra, colorLetra, grosorLetra)
     cv2.putText(img2, "%.2f[unidades]" % (texto), ubicacion2, tipoLetra, tamañoLetra, colorLetra, grosorLetra)
     #Mostrar imagen
     cv2.imshow('Imagen',img2)
@@ -92,6 +91,9 @@ for i in range(25):
 
 cv2.destroyAllWindows()
 ```
+<a class="github-button" href="https://github.com/kipunaEc/Python-OpenCV-noSobreescribirTexto.git" data-style="mega">Revisa este código en github</a>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
 # Texto en un Video 
 A diferencia de las imágenes, cuando se coloca texto en un video no es necesaro usar la función `copy()` porque un video esta compuesto por frames que se actualizan uno tras otro. 
 
@@ -122,7 +124,7 @@ while (capture.isOpened()):
         #Texto números aleatorios
         numeros = np.random.rand()
         #Colocar texto
-        cv2.putText(frame, texto, ubicacion, font, tamañoLetra, colorLetra, grosorLetra)
+        cv2.putText(frame, texto, ubicacion, tipoLetra, tamañoLetra, colorLetra, grosorLetra)
         cv2.putText(frame, "%.5f" % (numeros), ubicacion2, tipoLetra, tamañoLetra, colorLetra, grosorLetra)
         #Mostrar frames
         cv2.imshow("Video", frame)
@@ -135,6 +137,9 @@ while (capture.isOpened()):
 capture.release()
 cv2.destroyAllWindows()
 ```
+
+<a class="github-button" href="https://github.com/kipunaEc/Python-openCV-TextoVideo.git" data-style="mega">Revisa este código en github</a>
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 
 [Gif]: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_728/v1633444807/kipunaEC/gifs/patricio5_h2janv.gif
 [suscribirse]: https://www.youtube.com/channel/UCLHyReaGzfUcaiGoEN5jXEA "Clic para suscribirse en youtube"
