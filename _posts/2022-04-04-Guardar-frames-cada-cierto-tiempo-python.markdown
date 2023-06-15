@@ -4,6 +4,7 @@ date: 2022-04-04 00:01:00 +0300
 categories: [Python, openCV]
 tags: [python, ubuntu, tiempo, datetime, guardar, frames, imwrite]
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/v1649632032/kipunaEC/FramesTiempo/framesTiempo_ezvbbu.gif
+redirect_to: https://kipunaec.com/
 ---
 
 ***
