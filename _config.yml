@@ -9,7 +9,7 @@
 # --------------------------
 title: kipunaEc                             # the main title
 
-tagline: Electrónica, matemática - Ecuador  # it will display as the sub-title
+tagline: 'Electrónica, matemática - Ecuador ♥'  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Blog dedicado a electrónica, matemáticas progración en C++, python, openCV, matplotlib, ccs c compiler (microcontroladores) y seguridad industrial, escrito por mimi para el mundo.
