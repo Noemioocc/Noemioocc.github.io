@@ -4,6 +4,7 @@ date: 2021-07-24 00:01:00 +0300
 categories: [Python, Entornos Virtuales ]
 tags: [python, openCV, cmd, conda, windows]   
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v1628129174/kipunaEC/entornosWindows/conda_cteczl.png
+redirect_to: https://kipunaec.com/entornos-virtuales-python-en-windows-virtualenv-y-conda/
 ---
 
 ***
