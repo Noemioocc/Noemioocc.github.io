@@ -4,7 +4,7 @@ date: 2020-12-23 14:10:00 +0800
 categories: [Python, openCV ]
 tags: [openCV, python, ubuntu, imread, frames, video ]
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v1612480910/kipunaEC/frames-to-video/framesVideo_kmafwl.gif
-redirect_to:https://kipunaec.com/crear-un-video-con-imagenes-python-opencv/
+redirect_to: https://kipunaec.com/crear-un-video-con-imagenes-python-opencv/
 ---
 
 ***
