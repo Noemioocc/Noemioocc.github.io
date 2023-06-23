@@ -4,6 +4,7 @@ date: 2021-05-26 00:01:00 +0300
 categories: [Python, openCV ]
 tags: [python, openCV, terminal, pip, ubuntu]   
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v1622045279/kipunaEC/ejecutarTerminal/portada_kr4sfd.png
+redirect_to: https://kipunaec.com/como-ejecutar-un-script-python-py-en-la-terminal-de-ubuntu/
 ---
 
 ***
