@@ -4,6 +4,7 @@ date: 2021-05-11 00:01:00 +0300
 categories: [Python, openCV ]
 tags: [python, openCV, webcam, video, reproducir, mostrar]   
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v1621181124/kipunaEC/webCam/portada_qy7jvz.gif
+redirect_to: https://kipunaec.com/acceder-a-la-webcam-reproducir-y-guardar-un-video-con-python-opencv/
 ---
 
 ***
