@@ -4,6 +4,7 @@ date: 2021-05-16 00:01:00 +0300
 categories: [Python, openCV ]
 tags: [python, openCV, frames, video, guardar]   
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v1621263423/kipunaEC/extraerFrames/portada1_shwvpr.gif
+redirect_to: https://kipunaec.com/extraer-frames-de-un-video-con-python-opencv/
 ---
 
 ***
