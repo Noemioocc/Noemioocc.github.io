@@ -4,6 +4,7 @@ date: 2021-05-26 00:01:00 +0300
 categories: [Python, Entornos Virtuales ]
 tags: [python, openCV, terminal, pip, ubuntu, virtualenv]   
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_1000/v1625800348/kipunaEC/entornos/1_c1vbxt.png
+redirect_to: https://kipunaec.com/entornos-virtuales-python-en-ubuntu-virtualenv/
 ---
 
 ***
