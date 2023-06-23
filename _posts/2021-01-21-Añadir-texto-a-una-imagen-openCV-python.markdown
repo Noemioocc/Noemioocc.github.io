@@ -4,6 +4,7 @@ date: 2021-01-21 00:01:00 +0300
 categories: [Python, openCV ]
 tags: [python, openCV, texto, imagen, putText, formas]   
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v1612374454/kipunaEC/imagen-texto/texto_f9thx8.gif
+redirect_to: https://kipunaec.com/anadir-texto-a-una-imagen-opencv-python/
 ---
 
 ***
