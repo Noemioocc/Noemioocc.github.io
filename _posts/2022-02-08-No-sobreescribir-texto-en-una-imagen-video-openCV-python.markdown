@@ -4,6 +4,7 @@ date: 2022-02-08 00:01:00 +0300
 categories: [Python, openCV]
 tags: [python, openCV, texto, sobreescribir, decimales, format, imagen, video]
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_340/v1644373548/videoTextoa_g6fhfv.gif
+redirect_to: https://kipunaec.com/no-sobreescribir-texto-en-una-imagen-en-python-y-opencv/
 ---
 
 ***
