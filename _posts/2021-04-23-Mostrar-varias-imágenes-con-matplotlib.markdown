@@ -4,6 +4,7 @@ date: 2021-04-23 00:01:00 +0300
 categories: [Python, Matplotlib ]
 tags: [python, openCV, imagenes, matplotlib]   
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v1619235488/kipunaEC/python-matplotlib-openCV-abrir-imagenes/imagenMatplotlib_dlmr9b.gif
+redirect_to: https://kipunaec.com/mostrar-imagenes-con-matplotlib-opencv-y-python/
 ---
 
 ***
