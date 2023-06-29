@@ -4,6 +4,7 @@ date: 2021-11-03 00:01:00 +0300
 categories: [Python, Python básico]
 tags: [python, openCV, directorio, os, listdir, path, windows, ubuntu]
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_1192/v1636478056/kipunaEC/listarArchivos/portadaBlogLista-min_qn9tpi.png
+redirect_to: https://kipunaec.com/listar-archivos-de-una-carpeta-en-python/
 ---
 
 ***
