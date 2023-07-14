@@ -4,6 +4,7 @@ date: 2021-08-04 00:01:00 +0300
 categories: [Python, openCV ]
 tags: [python, openCV, canny, detección , bordes]
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_1000/v1628205958/kipunaEC/canny/cannyBlur_cz6xqm.gif
+redirect_to: https://kipunaec.com/detector-de-bordes-canny-con-python-y-opencv/
 ---
 
 ***
