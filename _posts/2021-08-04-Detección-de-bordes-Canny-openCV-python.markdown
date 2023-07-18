@@ -11,7 +11,7 @@ redirect_to: https://kipunaec.com/detector-de-bordes-canny-con-python-y-opencv/
 
 # Detector de borde Canny
 
-Es un reconocido algoritmo de visión por computador para detección de bordes, lleva su nombre por su desarrollador John F. Canny.
+Canny es un reconocido algoritmo de visión por computador para detección de bordes, lleva su nombre por su desarrollador John F. Canny.
 
 Este Algoritmo se puede usar en [**openCV**](https://opencv.org/) mediante la función [cv.Canny](https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html), internamente esta función realiza las siguientes etapas:
 
