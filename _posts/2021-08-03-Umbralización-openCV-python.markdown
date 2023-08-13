@@ -4,6 +4,7 @@ date: 2021-08-03 00:01:00 +0300
 categories: [Python, openCV ]
 tags: [python, openCV, umbralización, thresholding , simple, adaptativo, otsus]  
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_350/v1628110013/kipunaEC/umbralizar/UMBRALES_rq091l.gif
+redirect_to: https://kipunaec.com/umbralizacion-o-thresholding-con-python-y-opencv/
 ---
 
 ***
