@@ -4,7 +4,7 @@ date: 2021-12-07 00:01:00 +0300
 categories: [Python, Python básico]
 tags: [python, openCV, directorio, os, argparse, path, ubuntu]
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_640/v1642531710/kipunaEC/argparse/portadaArgs_jbshl7.gif
-Redirect_to: https://kipunaec.com/ejecutar-un-script-python-con-argparse/
+redirect_to: https://kipunaec.com/ejecutar-un-script-python-con-argparse/
 ---
 
 ***
