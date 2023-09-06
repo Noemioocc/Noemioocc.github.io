@@ -5,6 +5,7 @@ categories: [Python, openCV ]
 tags: [python, openCV, texto, imagen]   
 math: true
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_600/v1612302798/kipunaEC/pixeles/portada-pixel_isrv4e.jpg
+redirect_to: https://kipunaec.com/pixeles-en-opencv-python/
 ---
 
 ***
