@@ -4,6 +4,7 @@ date: 2021-01-21 00:01:00 +0300
 categories: [Python, openCV ]
 tags: [python, openCV, BGR, array, matriz, ones, zeros]   
 image: https://res.cloudinary.com/dxh1bpaim/image/upload/c_scale,w_500/v1612369131/kipunaEC/pixeles/pixel_sxfg93.gif
+redirect_to: https://kipunaec.com/pixeles-matrices-e-imagenes-con-python-y-opencv/
 ---
 ***
 
