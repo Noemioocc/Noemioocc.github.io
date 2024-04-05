@@ -9,24 +9,24 @@
 # --------------------------
 title: kipunaEc                             # the main title
 
-tagline: 'Electrónica, matemática - Ecuador ♥'  # it will display as the sub-title
+tagline: 'matemática ♥'  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Blog dedicado a electrónica, matemáticas progración en C++, python, openCV, matplotlib, ccs c compiler (microcontroladores) y seguridad industrial, escrito por mimi para el mundo.
+  Blog dedicado a matemáticas.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://noemioocc.github.io'
 
-author: Mimi                  # change to your full name
+author: Min                  # change to your full name
 
 github:
-  username: kipunaEc             # change to your github username
+  username: kip             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
 
 social:
-  name: Mimi                 # it will shows as the copyright owner in Footer
+  name: Min                # it will shows as the copyright owner in Footer
   email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
